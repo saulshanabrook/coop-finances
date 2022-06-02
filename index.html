@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "vconcat": [{"layer": [{"mark": {"type": "arc", "innerRadius": 20, "outerRadius": 120}, "encoding": {"color": {"field": "category", "legend": {"orient": "left"}, "type": "nominal"}, "theta": {"field": "cost", "stack": true, "type": "quantitative"}, "tooltip": [{"field": "category", "type": "nominal"}, {"field": "cost", "type": "quantitative"}]}, "transform": [{"calculate": "if((datum.category === 'insurance'),(insurance.insurance / 12),if((datum.category === 'investment'),((selector128.interest_rate * selector127.property_cost) / 12),null))", "as": "cost"}]}, {"mark": {"type": "text", "radius": 140, "size": 10}, "encoding": {"text": {"field": "cost", "type": "quantitative"}, "theta": {"field": "cost", "stack": true, "type": "quantitative"}, "tooltip": [{"field": "category", "type": "nominal"}, {"field": "cost", "type": "quantitative"}]}, "transform": [{"calculate": "if((datum.category === 'insurance'),(insurance.insurance / 12),if((datum.category === 'investment'),((selector128.interest_rate * selector127.property_cost) / 12),null))", "as": "cost"}]}, {"mark": {"type": "text", "radius": 0, "size": 20}, "encoding": {"text": {"aggregate": "sum", "field": "cost", "type": "quantitative"}}, "transform": [{"calculate": "if((datum.category === 'insurance'),(insurance.insurance / 12),if((datum.category === 'investment'),((selector128.interest_rate * selector127.property_cost) / 12),null))", "as": "cost"}]}], "data": {"name": "data-552b11009f962d713ec466f1486f5381"}}, {"concat": [{"layer": [{"mark": "line", "encoding": {"x": {"axis": {"format": "$.2s"}, "field": "property_cost", "type": "quantitative"}, "y": {"axis": {"format": "$.2s"}, "field": "monthly_cost", "type": "quantitative"}}, "selection": {"insurance": {"type": "single", "fields": ["insurance"], "bind": {"input": "range", "max": 800, "min": 300, "step": 100}, "init": {"insurance": 500}}}, "transform": [{"calculate": "(((datum.property_cost * selector128.interest_rate) / 12) + (insurance.insurance / 12))", "as": "monthly_cost"}]}, {"mark": "point", "encoding": {"opacity": {"value": 0}, "x": {"field": "property_cost", "type": "quantitative"}}, "selection": {"selector127": {"type": "single", "on": "mouseover", "nearest": true, "fields": ["property_cost"], "init": {"property_cost": 270000}}}}, {"mark": {"type": "rule", "color": "gray"}, "encoding": {"x": {"field": "property_cost", "type": "quantitative"}}, "transform": [{"filter": {"selection": "selector127"}}]}], "data": {"sequence": {"start": 100000, "stop": 300000, "step": 1000, "as": "property_cost"}}}, {"layer": [{"mark": "line", "encoding": {"x": {"axis": {"format": "%"}, "field": "interest_rate", "type": "quantitative"}, "y": {"axis": {"format": "$.2s"}, "field": "monthly_cost", "type": "quantitative"}}, "transform": [{"calculate": "(((selector127.property_cost * datum.interest_rate) / 12) + (insurance.insurance / 12))", "as": "monthly_cost"}]}, {"mark": "point", "encoding": {"opacity": {"value": 0}, "x": {"field": "interest_rate", "type": "quantitative"}}, "selection": {"selector128": {"type": "single", "on": "mouseover", "nearest": true, "fields": ["interest_rate"], "init": {"interest_rate": 0.03}}}}, {"mark": {"type": "rule", "color": "gray"}, "encoding": {"x": {"field": "interest_rate", "type": "quantitative"}}, "transform": [{"filter": {"selection": "selector128"}}]}], "data": {"sequence": {"start": 0, "stop": 0.1, "step": 0.01, "as": "interest_rate"}}}], "columns": 2, "resolve": {"scale": {"y": "shared"}}}], "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-552b11009f962d713ec466f1486f5381": [{"category": "insurance"}, {"category": "investment"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
