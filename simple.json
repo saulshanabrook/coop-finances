@@ -17,10 +17,10 @@
     }
   },
   "data": {
-    "name": "data-e5441d568c33576df5b7b61aa77462da"
+    "name": "data-e06708e2da928d0403ea75986df0874e"
   },
   "datasets": {
-    "data-e5441d568c33576df5b7b61aa77462da": [
+    "data-e06708e2da928d0403ea75986df0874e": [
       {
         "category": "Investors"
       },
@@ -50,6 +50,9 @@
       },
       {
         "category": "Insurance"
+      },
+      {
+        "category": "Bookkeeping"
       }
     ]
   },
@@ -83,7 +86,7 @@
         "type": "arc"
       },
       "selection": {
-        "selector323": {
+        "selector441": {
           "bind": {
             "input": "range",
             "max": 6,
@@ -99,7 +102,7 @@
           },
           "type": "single"
         },
-        "selector324": {
+        "selector442": {
           "bind": {
             "input": "range",
             "max": 300000,
@@ -115,7 +118,7 @@
           },
           "type": "single"
         },
-        "selector325": {
+        "selector443": {
           "bind": {
             "input": "range",
             "max": 0.1,
@@ -131,7 +134,7 @@
           },
           "type": "single"
         },
-        "selector326": {
+        "selector444": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -158,7 +161,7 @@
           },
           "type": "single"
         },
-        "selector327": {
+        "selector445": {
           "bind": {
             "input": "range",
             "max": 20000,
@@ -174,7 +177,7 @@
           },
           "type": "single"
         },
-        "selector328": {
+        "selector446": {
           "bind": {
             "input": "range",
             "max": 150000,
@@ -190,7 +193,7 @@
           },
           "type": "single"
         },
-        "selector329": {
+        "selector447": {
           "bind": {
             "input": "range",
             "max": 10000.0,
@@ -206,7 +209,7 @@
           },
           "type": "single"
         },
-        "selector330": {
+        "selector448": {
           "bind": {
             "input": "range",
             "max": 300000,
@@ -222,7 +225,30 @@
           },
           "type": "single"
         },
-        "selector331": {
+        "selector449": {
+          "bind": {
+            "input": "radio",
+            "labels": [
+              "Extra Small",
+              "Small",
+              "Medium"
+            ],
+            "name": "\ud83d\udcd4 Bookkeeping.coop Service Plan",
+            "options": [
+              230,
+              460,
+              1150
+            ]
+          },
+          "fields": [
+            "bookkeeping"
+          ],
+          "init": {
+            "bookkeeping": 230
+          },
+          "type": "single"
+        },
+        "selector450": {
           "bind": {
             "input": "range",
             "max": 800,
@@ -238,7 +264,7 @@
           },
           "type": "single"
         },
-        "selector332": {
+        "selector451": {
           "bind": {
             "input": "range",
             "max": 5,
@@ -254,7 +280,7 @@
           },
           "type": "single"
         },
-        "selector333": {
+        "selector452": {
           "bind": {
             "input": "range",
             "max": 580,
@@ -270,7 +296,7 @@
           },
           "type": "single"
         },
-        "selector334": {
+        "selector453": {
           "bind": {
             "input": "range",
             "max": 2270,
@@ -286,7 +312,7 @@
           },
           "type": "single"
         },
-        "selector335": {
+        "selector454": {
           "bind": {
             "input": "range",
             "max": 3196,
@@ -302,7 +328,7 @@
           },
           "type": "single"
         },
-        "selector336": {
+        "selector455": {
           "bind": {
             "input": "range",
             "max": 750,
@@ -322,7 +348,7 @@
       "transform": [
         {
           "as": "cost",
-          "calculate": "if((datum.category === 'Insurance'),((selector331.insurance[0] / 12) / selector323.rooms[0]),if((datum.category === 'Maintenance'),((selector329.maintaince[0] / 12) / selector323.rooms[0]),if((datum.category === 'Internet'),(99 / selector323.rooms[0]),if((datum.category === 'Heating Oil'),((selector336.oil[0] / 12) / selector323.rooms[0]),if((datum.category === 'Electric'),((selector335.electric[0] / 12) / selector323.rooms[0]),if((datum.category === 'Propane'),((selector334.propane[0] / 12) / selector323.rooms[0]),if((datum.category === 'Wood'),(((selector332.cords_wood[0] * selector333.price_per_cord[0]) / 12) / selector323.rooms[0]),if((datum.category === 'Property Tax'),((((selector330.assessed_value[0] * 2.32) / 100) / 12) / selector323.rooms[0]),if((datum.category === 'Land Trust'),if((selector328.clt_value[0] <= 0),0,(75 / selector323.rooms[0])),if((datum.category === 'Investors'),(if((selector326.loan_duration[0] === 0),((selector325.interest_rate[0] / 12) * ((selector324.property_cost[0] + selector327.lawyer_fees[0]) - selector328.clt_value[0])),if(((selector325.interest_rate[0] / 12) === 0),(((selector324.property_cost[0] + selector327.lawyer_fees[0]) - selector328.clt_value[0]) / selector326.loan_duration[0]),(((selector325.interest_rate[0] / 12) * ((selector324.property_cost[0] + selector327.lawyer_fees[0]) - selector328.clt_value[0])) / (1 - pow((1 + (selector325.interest_rate[0] / 12)),(-selector326.loan_duration[0])))))) / selector323.rooms[0]),null))))))))))"
+          "calculate": "if((datum.category === 'Bookkeeping'),(selector449.bookkeeping[0] / selector441.rooms[0]),if((datum.category === 'Insurance'),((selector450.insurance[0] / 12) / selector441.rooms[0]),if((datum.category === 'Maintenance'),((selector447.maintaince[0] / 12) / selector441.rooms[0]),if((datum.category === 'Internet'),(99 / selector441.rooms[0]),if((datum.category === 'Heating Oil'),((selector455.oil[0] / 12) / selector441.rooms[0]),if((datum.category === 'Electric'),((selector454.electric[0] / 12) / selector441.rooms[0]),if((datum.category === 'Propane'),((selector453.propane[0] / 12) / selector441.rooms[0]),if((datum.category === 'Wood'),(((selector451.cords_wood[0] * selector452.price_per_cord[0]) / 12) / selector441.rooms[0]),if((datum.category === 'Property Tax'),((((selector448.assessed_value[0] * 2.32) / 100) / 12) / selector441.rooms[0]),if((datum.category === 'Land Trust'),if((selector446.clt_value[0] <= 0),0,(75 / selector441.rooms[0])),if((datum.category === 'Investors'),(if((selector444.loan_duration[0] === 0),((selector443.interest_rate[0] / 12) * ((selector442.property_cost[0] + selector445.lawyer_fees[0]) - selector446.clt_value[0])),if(((selector443.interest_rate[0] / 12) === 0),(((selector442.property_cost[0] + selector445.lawyer_fees[0]) - selector446.clt_value[0]) / selector444.loan_duration[0]),(((selector443.interest_rate[0] / 12) * ((selector442.property_cost[0] + selector445.lawyer_fees[0]) - selector446.clt_value[0])) / (1 - pow((1 + (selector443.interest_rate[0] / 12)),(-selector444.loan_duration[0])))))) / selector441.rooms[0]),null)))))))))))"
         }
       ]
     },
@@ -362,7 +388,7 @@
       "transform": [
         {
           "as": "cost",
-          "calculate": "if((datum.category === 'Insurance'),((selector331.insurance[0] / 12) / selector323.rooms[0]),if((datum.category === 'Maintenance'),((selector329.maintaince[0] / 12) / selector323.rooms[0]),if((datum.category === 'Internet'),(99 / selector323.rooms[0]),if((datum.category === 'Heating Oil'),((selector336.oil[0] / 12) / selector323.rooms[0]),if((datum.category === 'Electric'),((selector335.electric[0] / 12) / selector323.rooms[0]),if((datum.category === 'Propane'),((selector334.propane[0] / 12) / selector323.rooms[0]),if((datum.category === 'Wood'),(((selector332.cords_wood[0] * selector333.price_per_cord[0]) / 12) / selector323.rooms[0]),if((datum.category === 'Property Tax'),((((selector330.assessed_value[0] * 2.32) / 100) / 12) / selector323.rooms[0]),if((datum.category === 'Land Trust'),if((selector328.clt_value[0] <= 0),0,(75 / selector323.rooms[0])),if((datum.category === 'Investors'),(if((selector326.loan_duration[0] === 0),((selector325.interest_rate[0] / 12) * ((selector324.property_cost[0] + selector327.lawyer_fees[0]) - selector328.clt_value[0])),if(((selector325.interest_rate[0] / 12) === 0),(((selector324.property_cost[0] + selector327.lawyer_fees[0]) - selector328.clt_value[0]) / selector326.loan_duration[0]),(((selector325.interest_rate[0] / 12) * ((selector324.property_cost[0] + selector327.lawyer_fees[0]) - selector328.clt_value[0])) / (1 - pow((1 + (selector325.interest_rate[0] / 12)),(-selector326.loan_duration[0])))))) / selector323.rooms[0]),null))))))))))"
+          "calculate": "if((datum.category === 'Bookkeeping'),(selector449.bookkeeping[0] / selector441.rooms[0]),if((datum.category === 'Insurance'),((selector450.insurance[0] / 12) / selector441.rooms[0]),if((datum.category === 'Maintenance'),((selector447.maintaince[0] / 12) / selector441.rooms[0]),if((datum.category === 'Internet'),(99 / selector441.rooms[0]),if((datum.category === 'Heating Oil'),((selector455.oil[0] / 12) / selector441.rooms[0]),if((datum.category === 'Electric'),((selector454.electric[0] / 12) / selector441.rooms[0]),if((datum.category === 'Propane'),((selector453.propane[0] / 12) / selector441.rooms[0]),if((datum.category === 'Wood'),(((selector451.cords_wood[0] * selector452.price_per_cord[0]) / 12) / selector441.rooms[0]),if((datum.category === 'Property Tax'),((((selector448.assessed_value[0] * 2.32) / 100) / 12) / selector441.rooms[0]),if((datum.category === 'Land Trust'),if((selector446.clt_value[0] <= 0),0,(75 / selector441.rooms[0])),if((datum.category === 'Investors'),(if((selector444.loan_duration[0] === 0),((selector443.interest_rate[0] / 12) * ((selector442.property_cost[0] + selector445.lawyer_fees[0]) - selector446.clt_value[0])),if(((selector443.interest_rate[0] / 12) === 0),(((selector442.property_cost[0] + selector445.lawyer_fees[0]) - selector446.clt_value[0]) / selector444.loan_duration[0]),(((selector443.interest_rate[0] / 12) * ((selector442.property_cost[0] + selector445.lawyer_fees[0]) - selector446.clt_value[0])) / (1 - pow((1 + (selector443.interest_rate[0] / 12)),(-selector444.loan_duration[0])))))) / selector441.rooms[0]),null)))))))))))"
         }
       ]
     },
@@ -388,7 +414,7 @@
       "transform": [
         {
           "as": "cost",
-          "calculate": "if((datum.category === 'Insurance'),((selector331.insurance[0] / 12) / selector323.rooms[0]),if((datum.category === 'Maintenance'),((selector329.maintaince[0] / 12) / selector323.rooms[0]),if((datum.category === 'Internet'),(99 / selector323.rooms[0]),if((datum.category === 'Heating Oil'),((selector336.oil[0] / 12) / selector323.rooms[0]),if((datum.category === 'Electric'),((selector335.electric[0] / 12) / selector323.rooms[0]),if((datum.category === 'Propane'),((selector334.propane[0] / 12) / selector323.rooms[0]),if((datum.category === 'Wood'),(((selector332.cords_wood[0] * selector333.price_per_cord[0]) / 12) / selector323.rooms[0]),if((datum.category === 'Property Tax'),((((selector330.assessed_value[0] * 2.32) / 100) / 12) / selector323.rooms[0]),if((datum.category === 'Land Trust'),if((selector328.clt_value[0] <= 0),0,(75 / selector323.rooms[0])),if((datum.category === 'Investors'),(if((selector326.loan_duration[0] === 0),((selector325.interest_rate[0] / 12) * ((selector324.property_cost[0] + selector327.lawyer_fees[0]) - selector328.clt_value[0])),if(((selector325.interest_rate[0] / 12) === 0),(((selector324.property_cost[0] + selector327.lawyer_fees[0]) - selector328.clt_value[0]) / selector326.loan_duration[0]),(((selector325.interest_rate[0] / 12) * ((selector324.property_cost[0] + selector327.lawyer_fees[0]) - selector328.clt_value[0])) / (1 - pow((1 + (selector325.interest_rate[0] / 12)),(-selector326.loan_duration[0])))))) / selector323.rooms[0]),null))))))))))"
+          "calculate": "if((datum.category === 'Bookkeeping'),(selector449.bookkeeping[0] / selector441.rooms[0]),if((datum.category === 'Insurance'),((selector450.insurance[0] / 12) / selector441.rooms[0]),if((datum.category === 'Maintenance'),((selector447.maintaince[0] / 12) / selector441.rooms[0]),if((datum.category === 'Internet'),(99 / selector441.rooms[0]),if((datum.category === 'Heating Oil'),((selector455.oil[0] / 12) / selector441.rooms[0]),if((datum.category === 'Electric'),((selector454.electric[0] / 12) / selector441.rooms[0]),if((datum.category === 'Propane'),((selector453.propane[0] / 12) / selector441.rooms[0]),if((datum.category === 'Wood'),(((selector451.cords_wood[0] * selector452.price_per_cord[0]) / 12) / selector441.rooms[0]),if((datum.category === 'Property Tax'),((((selector448.assessed_value[0] * 2.32) / 100) / 12) / selector441.rooms[0]),if((datum.category === 'Land Trust'),if((selector446.clt_value[0] <= 0),0,(75 / selector441.rooms[0])),if((datum.category === 'Investors'),(if((selector444.loan_duration[0] === 0),((selector443.interest_rate[0] / 12) * ((selector442.property_cost[0] + selector445.lawyer_fees[0]) - selector446.clt_value[0])),if(((selector443.interest_rate[0] / 12) === 0),(((selector442.property_cost[0] + selector445.lawyer_fees[0]) - selector446.clt_value[0]) / selector444.loan_duration[0]),(((selector443.interest_rate[0] / 12) * ((selector442.property_cost[0] + selector445.lawyer_fees[0]) - selector446.clt_value[0])) / (1 - pow((1 + (selector443.interest_rate[0] / 12)),(-selector444.loan_duration[0])))))) / selector441.rooms[0]),null)))))))))))"
         }
       ],
       "width": 900
