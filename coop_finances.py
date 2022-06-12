@@ -179,7 +179,7 @@ def generate_plot(
                 alt.X("scenario:O"),
                 alt.Y(
                     "sum(upfront_cost):Q",
-                    axis=alt.Axis(format="$.3s", title="Upfront Cost"),
+                    axis=alt.Axis(format="$.3s", title="Required Investment"),
                 ),
                 alt.Color("category:N"),
                 alt.Tooltip(["category:N", "upfront_cost:Q"]),
