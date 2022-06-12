@@ -16,58 +16,79 @@
       "stroke": "transparent"
     }
   },
-  "data": {
-    "name": "data-e06708e2da928d0403ea75986df0874e"
-  },
   "datasets": {
-    "data-e06708e2da928d0403ea75986df0874e": [
+    "data-30c02a9387ccc73cb0172a7a31878495": [
       {
-        "category": "Investors"
+        "category": "Lawyer Fees",
+        "scenario": "Upfront"
       },
       {
-        "category": "Land Trust"
+        "category": "Purchase",
+        "scenario": "Upfront"
+      }
+    ],
+    "data-551d04a643f1fb2933f601695f03fab1": [
+      {
+        "category": "Mobile Home",
+        "scenario": "Upfront"
+      }
+    ],
+    "data-f8f56e7e564060339749696cb1e54fcb": [
+      {
+        "category": "Investors",
+        "scenario": "Upfront"
       },
       {
-        "category": "Property Tax"
+        "category": "Land Trust",
+        "scenario": "Upfront"
       },
       {
-        "category": "Wood"
+        "category": "Property Tax",
+        "scenario": "Upfront"
       },
       {
-        "category": "Propane"
+        "category": "Wood",
+        "scenario": "Upfront"
       },
       {
-        "category": "Electric"
+        "category": "Propane",
+        "scenario": "Upfront"
       },
       {
-        "category": "Heating Oil"
+        "category": "Electric",
+        "scenario": "Upfront"
       },
       {
-        "category": "Internet"
+        "category": "Heating Oil",
+        "scenario": "Upfront"
       },
       {
-        "category": "Maintenance"
+        "category": "Internet",
+        "scenario": "Upfront"
       },
       {
-        "category": "Insurance"
+        "category": "Maintenance",
+        "scenario": "Upfront"
       },
       {
-        "category": "Bookkeeping"
+        "category": "Insurance",
+        "scenario": "Upfront"
+      },
+      {
+        "category": "Bookkeeping",
+        "scenario": "Upfront"
       }
     ]
   },
-  "layer": [
+  "hconcat": [
     {
+      "data": {
+        "name": "data-f8f56e7e564060339749696cb1e54fcb"
+      },
       "encoding": {
         "color": {
           "field": "category",
-          "legend": null,
           "type": "nominal"
-        },
-        "theta": {
-          "field": "cost",
-          "stack": true,
-          "type": "quantitative"
         },
         "tooltip": [
           {
@@ -78,15 +99,24 @@
             "field": "cost",
             "type": "quantitative"
           }
-        ]
+        ],
+        "x": {
+          "field": "scenario",
+          "type": "ordinal"
+        },
+        "y": {
+          "aggregate": "sum",
+          "axis": {
+            "format": "$.3s",
+            "title": "Monthly Cost per Resident"
+          },
+          "field": "cost",
+          "type": "quantitative"
+        }
       },
-      "mark": {
-        "innerRadius": 30,
-        "outerRadius": 120,
-        "type": "arc"
-      },
+      "mark": "bar",
       "selection": {
-        "selector016": {
+        "selector001": {
           "bind": {
             "input": "range",
             "max": 6,
@@ -102,7 +132,7 @@
           },
           "type": "single"
         },
-        "selector017": {
+        "selector002": {
           "bind": {
             "input": "range",
             "max": 300000,
@@ -118,7 +148,7 @@
           },
           "type": "single"
         },
-        "selector018": {
+        "selector003": {
           "bind": {
             "input": "range",
             "max": 0.1,
@@ -134,7 +164,7 @@
           },
           "type": "single"
         },
-        "selector019": {
+        "selector004": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -161,7 +191,7 @@
           },
           "type": "single"
         },
-        "selector020": {
+        "selector005": {
           "bind": {
             "input": "range",
             "max": 20000,
@@ -177,7 +207,7 @@
           },
           "type": "single"
         },
-        "selector021": {
+        "selector006": {
           "bind": {
             "input": "range",
             "max": 150000,
@@ -193,7 +223,7 @@
           },
           "type": "single"
         },
-        "selector022": {
+        "selector007": {
           "bind": {
             "input": "range",
             "max": 10000.0,
@@ -209,7 +239,7 @@
           },
           "type": "single"
         },
-        "selector023": {
+        "selector008": {
           "bind": {
             "input": "range",
             "max": 300000,
@@ -225,7 +255,7 @@
           },
           "type": "single"
         },
-        "selector024": {
+        "selector009": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -248,7 +278,7 @@
           },
           "type": "single"
         },
-        "selector025": {
+        "selector010": {
           "bind": {
             "input": "range",
             "max": 800,
@@ -264,7 +294,7 @@
           },
           "type": "single"
         },
-        "selector026": {
+        "selector011": {
           "bind": {
             "input": "range",
             "max": 5,
@@ -280,7 +310,7 @@
           },
           "type": "single"
         },
-        "selector027": {
+        "selector012": {
           "bind": {
             "input": "range",
             "max": 580,
@@ -296,7 +326,7 @@
           },
           "type": "single"
         },
-        "selector028": {
+        "selector013": {
           "bind": {
             "input": "range",
             "max": 2270,
@@ -312,7 +342,7 @@
           },
           "type": "single"
         },
-        "selector029": {
+        "selector014": {
           "bind": {
             "input": "range",
             "max": 3196,
@@ -328,7 +358,7 @@
           },
           "type": "single"
         },
-        "selector030": {
+        "selector015": {
           "bind": {
             "input": "range",
             "max": 750,
@@ -348,25 +378,18 @@
       "transform": [
         {
           "as": "cost",
-          "calculate": "if((datum.category === 'Bookkeeping'),(selector024.bookkeeping[0] / selector016.rooms[0]),if((datum.category === 'Insurance'),((selector025.insurance[0] / 12) / selector016.rooms[0]),if((datum.category === 'Maintenance'),((selector022.maintaince[0] / 12) / selector016.rooms[0]),if((datum.category === 'Internet'),(99 / selector016.rooms[0]),if((datum.category === 'Heating Oil'),((selector030.oil[0] / 12) / selector016.rooms[0]),if((datum.category === 'Electric'),((selector029.electric[0] / 12) / selector016.rooms[0]),if((datum.category === 'Propane'),((selector028.propane[0] / 12) / selector016.rooms[0]),if((datum.category === 'Wood'),(((selector026.cords_wood[0] * selector027.price_per_cord[0]) / 12) / selector016.rooms[0]),if((datum.category === 'Property Tax'),((((selector023.assessed_value[0] * 2.32) / 100) / 12) / selector016.rooms[0]),if((datum.category === 'Land Trust'),if((selector021.clt_value[0] <= 0),0,(75 / selector016.rooms[0])),if((datum.category === 'Investors'),(if((selector019.loan_duration[0] === 0),((selector018.interest_rate[0] / 12) * ((selector017.property_cost[0] + selector020.lawyer_fees[0]) - selector021.clt_value[0])),if(((selector018.interest_rate[0] / 12) === 0),(((selector017.property_cost[0] + selector020.lawyer_fees[0]) - selector021.clt_value[0]) / selector019.loan_duration[0]),(((selector018.interest_rate[0] / 12) * ((selector017.property_cost[0] + selector020.lawyer_fees[0]) - selector021.clt_value[0])) / (1 - pow((1 + (selector018.interest_rate[0] / 12)),(-selector019.loan_duration[0])))))) / selector016.rooms[0]),null)))))))))))"
+          "calculate": "(if(((datum.category === 'Bookkeeping') && (datum.scenario === 'Upfront')),selector009.bookkeeping[0],if(((datum.category === 'Insurance') && (datum.scenario === 'Upfront')),(selector010.insurance[0] / 12),if(((datum.category === 'Maintenance') && (datum.scenario === 'Upfront')),(selector007.maintaince[0] / 12),if(((datum.category === 'Internet') && (datum.scenario === 'Upfront')),99,if(((datum.category === 'Heating Oil') && (datum.scenario === 'Upfront')),(selector015.oil[0] / 12),if(((datum.category === 'Electric') && (datum.scenario === 'Upfront')),(selector014.electric[0] / 12),if(((datum.category === 'Propane') && (datum.scenario === 'Upfront')),(selector013.propane[0] / 12),if(((datum.category === 'Wood') && (datum.scenario === 'Upfront')),((selector011.cords_wood[0] * selector012.price_per_cord[0]) / 12),if(((datum.category === 'Property Tax') && (datum.scenario === 'Upfront')),(((selector008.assessed_value[0] * 2.32) / 100) / 12),if(((datum.category === 'Land Trust') && (datum.scenario === 'Upfront')),if((selector006.clt_value[0] <= 0),0,75),if(((datum.category === 'Investors') && (datum.scenario === 'Upfront')),if((selector004.loan_duration[0] === 0),((selector003.interest_rate[0] / 12) * ((selector002.property_cost[0] + selector005.lawyer_fees[0]) - selector006.clt_value[0])),if(((selector003.interest_rate[0] / 12) === 0),(((selector002.property_cost[0] + selector005.lawyer_fees[0]) - selector006.clt_value[0]) / selector004.loan_duration[0]),(((selector003.interest_rate[0] / 12) * ((selector002.property_cost[0] + selector005.lawyer_fees[0]) - selector006.clt_value[0])) / (1 - pow((1 + (selector003.interest_rate[0] / 12)),(-selector004.loan_duration[0])))))),null))))))))))) / (0 + selector001.rooms[0]))"
         }
       ]
     },
     {
+      "data": {
+        "name": "data-551d04a643f1fb2933f601695f03fab1"
+      },
       "encoding": {
         "color": {
           "field": "category",
-          "legend": null,
           "type": "nominal"
-        },
-        "text": {
-          "field": "category",
-          "type": "nominal"
-        },
-        "theta": {
-          "field": "cost",
-          "stack": true,
-          "type": "quantitative"
         },
         "tooltip": [
           {
@@ -374,50 +397,592 @@
             "type": "nominal"
           },
           {
-            "field": "cost",
+            "field": "number_people",
             "type": "quantitative"
           }
-        ]
+        ],
+        "x": {
+          "field": "scenario",
+          "type": "ordinal"
+        },
+        "y": {
+          "aggregate": "sum",
+          "axis": {
+            "tickMinStep": 1,
+            "title": "# Residents"
+          },
+          "field": "number_people",
+          "type": "quantitative"
+        }
       },
-      "mark": {
-        "align": "center",
-        "radius": 155,
-        "size": 15,
-        "type": "text"
+      "mark": "bar",
+      "selection": {
+        "selector001": {
+          "bind": {
+            "input": "range",
+            "max": 6,
+            "min": 2,
+            "name": "\ud83e\udeba Number of residents",
+            "step": 1
+          },
+          "fields": [
+            "rooms"
+          ],
+          "init": {
+            "rooms": 3
+          },
+          "type": "single"
+        },
+        "selector002": {
+          "bind": {
+            "input": "range",
+            "max": 300000,
+            "min": 110000,
+            "name": "\ud83e\udd11 Purchase price",
+            "step": 10000
+          },
+          "fields": [
+            "property_cost"
+          ],
+          "init": {
+            "property_cost": 170000
+          },
+          "type": "single"
+        },
+        "selector003": {
+          "bind": {
+            "input": "range",
+            "max": 0.1,
+            "min": 0,
+            "name": "\ud83d\udcc8 Investor interest rate",
+            "step": 0.01
+          },
+          "fields": [
+            "interest_rate"
+          ],
+          "init": {
+            "interest_rate": 0.03
+          },
+          "type": "single"
+        },
+        "selector004": {
+          "bind": {
+            "input": "radio",
+            "labels": [
+              "5 years",
+              "10 years",
+              "15 years",
+              "30 years",
+              "Investment"
+            ],
+            "name": "\ud83d\uddd3 Loan Duration",
+            "options": [
+              60,
+              120,
+              180,
+              360,
+              0
+            ]
+          },
+          "fields": [
+            "loan_duration"
+          ],
+          "init": {
+            "loan_duration": 0
+          },
+          "type": "single"
+        },
+        "selector005": {
+          "bind": {
+            "input": "range",
+            "max": 20000,
+            "min": 2000,
+            "name": "\ud83d\udcbc Lawyer fees and closing costs",
+            "step": 1000
+          },
+          "fields": [
+            "lawyer_fees"
+          ],
+          "init": {
+            "lawyer_fees": 10000
+          },
+          "type": "single"
+        },
+        "selector006": {
+          "bind": {
+            "input": "range",
+            "max": 150000,
+            "min": 0,
+            "name": "\ud83c\udfde Land value owned by CLT",
+            "step": 10000
+          },
+          "fields": [
+            "clt_value"
+          ],
+          "init": {
+            "clt_value": 70000
+          },
+          "type": "single"
+        },
+        "selector007": {
+          "bind": {
+            "input": "range",
+            "max": 10000.0,
+            "min": 2000.0,
+            "name": "\ud83d\udd27 Maintenance per year",
+            "step": 2000.0
+          },
+          "fields": [
+            "maintaince"
+          ],
+          "init": {
+            "maintaince": 6000.0
+          },
+          "type": "single"
+        },
+        "selector008": {
+          "bind": {
+            "input": "range",
+            "max": 300000,
+            "min": 110000,
+            "name": "\ud83c\uddfa\ud83c\uddf8 Assessed Value (for property taxes)",
+            "step": 5000
+          },
+          "fields": [
+            "assessed_value"
+          ],
+          "init": {
+            "assessed_value": 130000
+          },
+          "type": "single"
+        },
+        "selector009": {
+          "bind": {
+            "input": "radio",
+            "labels": [
+              "Extra Small",
+              "Small",
+              "Medium"
+            ],
+            "name": "\ud83d\udcd4 Bookkeeping.coop Service Plan",
+            "options": [
+              230,
+              460,
+              1150
+            ]
+          },
+          "fields": [
+            "bookkeeping"
+          ],
+          "init": {
+            "bookkeeping": 230
+          },
+          "type": "single"
+        },
+        "selector010": {
+          "bind": {
+            "input": "range",
+            "max": 800,
+            "min": 300,
+            "name": "\ud83c\udfe1 Home Insurance (annual)",
+            "step": 100
+          },
+          "fields": [
+            "insurance"
+          ],
+          "init": {
+            "insurance": 500
+          },
+          "type": "single"
+        },
+        "selector011": {
+          "bind": {
+            "input": "range",
+            "max": 5,
+            "min": 0,
+            "name": "\ud83e\udeb5 Cords of wood per year",
+            "step": 1
+          },
+          "fields": [
+            "cords_wood"
+          ],
+          "init": {
+            "cords_wood": 3
+          },
+          "type": "single"
+        },
+        "selector012": {
+          "bind": {
+            "input": "range",
+            "max": 580,
+            "min": 0,
+            "name": "\ud83d\udd25 Price per cord wood",
+            "step": 10
+          },
+          "fields": [
+            "price_per_cord"
+          ],
+          "init": {
+            "price_per_cord": 190
+          },
+          "type": "single"
+        },
+        "selector013": {
+          "bind": {
+            "input": "range",
+            "max": 2270,
+            "min": 0,
+            "name": "\ud83e\udd95 Propane per year",
+            "step": 113.5
+          },
+          "fields": [
+            "propane"
+          ],
+          "init": {
+            "propane": 1135
+          },
+          "type": "single"
+        },
+        "selector014": {
+          "bind": {
+            "input": "range",
+            "max": 3196,
+            "min": 0,
+            "name": "\ud83d\udd0c Electric per year",
+            "step": 159.8
+          },
+          "fields": [
+            "electric"
+          ],
+          "init": {
+            "electric": 1598
+          },
+          "type": "single"
+        },
+        "selector015": {
+          "bind": {
+            "input": "range",
+            "max": 750,
+            "min": 0,
+            "name": "\ud83e\ude94 Heating oil per year",
+            "step": 37.5
+          },
+          "fields": [
+            "oil"
+          ],
+          "init": {
+            "oil": 375
+          },
+          "type": "single"
+        }
       },
       "transform": [
         {
-          "as": "cost",
-          "calculate": "if((datum.category === 'Bookkeeping'),(selector024.bookkeeping[0] / selector016.rooms[0]),if((datum.category === 'Insurance'),((selector025.insurance[0] / 12) / selector016.rooms[0]),if((datum.category === 'Maintenance'),((selector022.maintaince[0] / 12) / selector016.rooms[0]),if((datum.category === 'Internet'),(99 / selector016.rooms[0]),if((datum.category === 'Heating Oil'),((selector030.oil[0] / 12) / selector016.rooms[0]),if((datum.category === 'Electric'),((selector029.electric[0] / 12) / selector016.rooms[0]),if((datum.category === 'Propane'),((selector028.propane[0] / 12) / selector016.rooms[0]),if((datum.category === 'Wood'),(((selector026.cords_wood[0] * selector027.price_per_cord[0]) / 12) / selector016.rooms[0]),if((datum.category === 'Property Tax'),((((selector023.assessed_value[0] * 2.32) / 100) / 12) / selector016.rooms[0]),if((datum.category === 'Land Trust'),if((selector021.clt_value[0] <= 0),0,(75 / selector016.rooms[0])),if((datum.category === 'Investors'),(if((selector019.loan_duration[0] === 0),((selector018.interest_rate[0] / 12) * ((selector017.property_cost[0] + selector020.lawyer_fees[0]) - selector021.clt_value[0])),if(((selector018.interest_rate[0] / 12) === 0),(((selector017.property_cost[0] + selector020.lawyer_fees[0]) - selector021.clt_value[0]) / selector019.loan_duration[0]),(((selector018.interest_rate[0] / 12) * ((selector017.property_cost[0] + selector020.lawyer_fees[0]) - selector021.clt_value[0])) / (1 - pow((1 + (selector018.interest_rate[0] / 12)),(-selector019.loan_duration[0])))))) / selector016.rooms[0]),null)))))))))))"
+          "as": "number_people",
+          "calculate": "if(((datum.category === 'Mobile Home') && (datum.scenario === 'Upfront')),selector001.rooms[0],null)"
         }
       ]
     },
     {
+      "data": {
+        "name": "data-30c02a9387ccc73cb0172a7a31878495"
+      },
       "encoding": {
-        "text": {
+        "color": {
+          "field": "category",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "category",
+            "type": "nominal"
+          },
+          {
+            "field": "upfront_cost",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "scenario",
+          "type": "ordinal"
+        },
+        "y": {
           "aggregate": "sum",
-          "field": "cost",
-          "format": "$.2s",
+          "axis": {
+            "format": "$.3s",
+            "title": "Upfront Cost"
+          },
+          "field": "upfront_cost",
           "type": "quantitative"
         }
       },
-      "height": 400,
-      "mark": {
-        "radius": 0,
-        "size": 20,
-        "type": "text"
-      },
-      "title": {
-        "fontSize": 25,
-        "text": "Price per room per month"
+      "mark": "bar",
+      "selection": {
+        "selector001": {
+          "bind": {
+            "input": "range",
+            "max": 6,
+            "min": 2,
+            "name": "\ud83e\udeba Number of residents",
+            "step": 1
+          },
+          "fields": [
+            "rooms"
+          ],
+          "init": {
+            "rooms": 3
+          },
+          "type": "single"
+        },
+        "selector002": {
+          "bind": {
+            "input": "range",
+            "max": 300000,
+            "min": 110000,
+            "name": "\ud83e\udd11 Purchase price",
+            "step": 10000
+          },
+          "fields": [
+            "property_cost"
+          ],
+          "init": {
+            "property_cost": 170000
+          },
+          "type": "single"
+        },
+        "selector003": {
+          "bind": {
+            "input": "range",
+            "max": 0.1,
+            "min": 0,
+            "name": "\ud83d\udcc8 Investor interest rate",
+            "step": 0.01
+          },
+          "fields": [
+            "interest_rate"
+          ],
+          "init": {
+            "interest_rate": 0.03
+          },
+          "type": "single"
+        },
+        "selector004": {
+          "bind": {
+            "input": "radio",
+            "labels": [
+              "5 years",
+              "10 years",
+              "15 years",
+              "30 years",
+              "Investment"
+            ],
+            "name": "\ud83d\uddd3 Loan Duration",
+            "options": [
+              60,
+              120,
+              180,
+              360,
+              0
+            ]
+          },
+          "fields": [
+            "loan_duration"
+          ],
+          "init": {
+            "loan_duration": 0
+          },
+          "type": "single"
+        },
+        "selector005": {
+          "bind": {
+            "input": "range",
+            "max": 20000,
+            "min": 2000,
+            "name": "\ud83d\udcbc Lawyer fees and closing costs",
+            "step": 1000
+          },
+          "fields": [
+            "lawyer_fees"
+          ],
+          "init": {
+            "lawyer_fees": 10000
+          },
+          "type": "single"
+        },
+        "selector006": {
+          "bind": {
+            "input": "range",
+            "max": 150000,
+            "min": 0,
+            "name": "\ud83c\udfde Land value owned by CLT",
+            "step": 10000
+          },
+          "fields": [
+            "clt_value"
+          ],
+          "init": {
+            "clt_value": 70000
+          },
+          "type": "single"
+        },
+        "selector007": {
+          "bind": {
+            "input": "range",
+            "max": 10000.0,
+            "min": 2000.0,
+            "name": "\ud83d\udd27 Maintenance per year",
+            "step": 2000.0
+          },
+          "fields": [
+            "maintaince"
+          ],
+          "init": {
+            "maintaince": 6000.0
+          },
+          "type": "single"
+        },
+        "selector008": {
+          "bind": {
+            "input": "range",
+            "max": 300000,
+            "min": 110000,
+            "name": "\ud83c\uddfa\ud83c\uddf8 Assessed Value (for property taxes)",
+            "step": 5000
+          },
+          "fields": [
+            "assessed_value"
+          ],
+          "init": {
+            "assessed_value": 130000
+          },
+          "type": "single"
+        },
+        "selector009": {
+          "bind": {
+            "input": "radio",
+            "labels": [
+              "Extra Small",
+              "Small",
+              "Medium"
+            ],
+            "name": "\ud83d\udcd4 Bookkeeping.coop Service Plan",
+            "options": [
+              230,
+              460,
+              1150
+            ]
+          },
+          "fields": [
+            "bookkeeping"
+          ],
+          "init": {
+            "bookkeeping": 230
+          },
+          "type": "single"
+        },
+        "selector010": {
+          "bind": {
+            "input": "range",
+            "max": 800,
+            "min": 300,
+            "name": "\ud83c\udfe1 Home Insurance (annual)",
+            "step": 100
+          },
+          "fields": [
+            "insurance"
+          ],
+          "init": {
+            "insurance": 500
+          },
+          "type": "single"
+        },
+        "selector011": {
+          "bind": {
+            "input": "range",
+            "max": 5,
+            "min": 0,
+            "name": "\ud83e\udeb5 Cords of wood per year",
+            "step": 1
+          },
+          "fields": [
+            "cords_wood"
+          ],
+          "init": {
+            "cords_wood": 3
+          },
+          "type": "single"
+        },
+        "selector012": {
+          "bind": {
+            "input": "range",
+            "max": 580,
+            "min": 0,
+            "name": "\ud83d\udd25 Price per cord wood",
+            "step": 10
+          },
+          "fields": [
+            "price_per_cord"
+          ],
+          "init": {
+            "price_per_cord": 190
+          },
+          "type": "single"
+        },
+        "selector013": {
+          "bind": {
+            "input": "range",
+            "max": 2270,
+            "min": 0,
+            "name": "\ud83e\udd95 Propane per year",
+            "step": 113.5
+          },
+          "fields": [
+            "propane"
+          ],
+          "init": {
+            "propane": 1135
+          },
+          "type": "single"
+        },
+        "selector014": {
+          "bind": {
+            "input": "range",
+            "max": 3196,
+            "min": 0,
+            "name": "\ud83d\udd0c Electric per year",
+            "step": 159.8
+          },
+          "fields": [
+            "electric"
+          ],
+          "init": {
+            "electric": 1598
+          },
+          "type": "single"
+        },
+        "selector015": {
+          "bind": {
+            "input": "range",
+            "max": 750,
+            "min": 0,
+            "name": "\ud83e\ude94 Heating oil per year",
+            "step": 37.5
+          },
+          "fields": [
+            "oil"
+          ],
+          "init": {
+            "oil": 375
+          },
+          "type": "single"
+        }
       },
       "transform": [
         {
-          "as": "cost",
-          "calculate": "if((datum.category === 'Bookkeeping'),(selector024.bookkeeping[0] / selector016.rooms[0]),if((datum.category === 'Insurance'),((selector025.insurance[0] / 12) / selector016.rooms[0]),if((datum.category === 'Maintenance'),((selector022.maintaince[0] / 12) / selector016.rooms[0]),if((datum.category === 'Internet'),(99 / selector016.rooms[0]),if((datum.category === 'Heating Oil'),((selector030.oil[0] / 12) / selector016.rooms[0]),if((datum.category === 'Electric'),((selector029.electric[0] / 12) / selector016.rooms[0]),if((datum.category === 'Propane'),((selector028.propane[0] / 12) / selector016.rooms[0]),if((datum.category === 'Wood'),(((selector026.cords_wood[0] * selector027.price_per_cord[0]) / 12) / selector016.rooms[0]),if((datum.category === 'Property Tax'),((((selector023.assessed_value[0] * 2.32) / 100) / 12) / selector016.rooms[0]),if((datum.category === 'Land Trust'),if((selector021.clt_value[0] <= 0),0,(75 / selector016.rooms[0])),if((datum.category === 'Investors'),(if((selector019.loan_duration[0] === 0),((selector018.interest_rate[0] / 12) * ((selector017.property_cost[0] + selector020.lawyer_fees[0]) - selector021.clt_value[0])),if(((selector018.interest_rate[0] / 12) === 0),(((selector017.property_cost[0] + selector020.lawyer_fees[0]) - selector021.clt_value[0]) / selector019.loan_duration[0]),(((selector018.interest_rate[0] / 12) * ((selector017.property_cost[0] + selector020.lawyer_fees[0]) - selector021.clt_value[0])) / (1 - pow((1 + (selector018.interest_rate[0] / 12)),(-selector019.loan_duration[0])))))) / selector016.rooms[0]),null)))))))))))"
+          "as": "upfront_cost",
+          "calculate": "if(((datum.category === 'Purchase') && (datum.scenario === 'Upfront')),(selector002.property_cost[0] - selector006.clt_value[0]),if(((datum.category === 'Lawyer Fees') && (datum.scenario === 'Upfront')),selector005.lawyer_fees[0],null))"
         }
-      ],
-      "width": 900
+      ]
     }
   ],
   "title": {
@@ -425,10 +990,6 @@
     "anchor": "start",
     "fontSize": 40,
     "subtitle": [
-      "yr = \ud83c\uddfa\ud83c\uddf8 * 2.32% (tax rate) + \ud83e\udeb5 * \ud83d\udd25 + \ud83e\udd95 + \ud83d\udd0c + \ud83e\ude94 + $99 (internet) + \ud83c\udfe1 + \ud83d\udd27",
-      "Investors = \ud83e\uddee(r=\ud83d\udcc8 / 12, N=\ud83d\uddd3 * 12, P=\ud83e\udd11 + \ud83d\udcbc - \ud83c\udfde)",
-      "monthly cost = (yr / 12 + Investors (+ $75 (Land Trust Fee) if \ud83c\udfde > $0)) / \ud83e\udeba",
-      "\ud83e\uddee = https://en.wikipedia.org/wiki/Mortgage_calculator#Monthly_payment_formula",
       "source: https://github.com/saulshanabrook/coop-finances"
     ],
     "text": "\ud83d\udc47 Drag the sliders to change \ud83c\udfe1 values \u2763\ufe0f"

@@ -22,15 +22,16 @@ import typing
 import altair as alt
 import IPython.display
 
-__all__ = ["Variable", "Range", "generate_plots"]
+__all__ = ["Variable", "Range", "generate_plots", "Scenario"]
 WIDTH = 800
 
-# @dataclasses.dataclass
-# class Expr:
-#     e: str
 
-#     def __repr__(self):
-#         return self.e
+@dataclasses.dataclass
+class Scenario:
+    name: str
+    monthly_cost: dict[str, object]
+    upfront_cost: dict[str, object]
+    number_people: dict[str, object]
 
 
 @dataclasses.dataclass
@@ -74,11 +75,13 @@ class Variable:
         )
 
 
-def generate_plots(fn, subtitle, **variables):
+def generate_plots(fn, subtitle, **variables: Variable):
     IPython.display.display(generate_plot(fn, subtitle, variables))
 
 
-def generate_plot(fn, subtitle, variables):
+def generate_plot(
+    fn: typing.Callable[..., list[Scenario]], subtitle, variables: dict[str, Variable]
+):
     # https://altair-viz.github.io/gallery/multiline_tooltip.html
     selections = {
         k: alt.selection_single(
@@ -102,55 +105,90 @@ def generate_plot(fn, subtitle, variables):
 
     current_values = {k: getattr(selections[k], k)[0] for k, v in variables.items()}
 
-    monthly_cost_categories = fn(**current_values)
+    scenarios = fn(**current_values)
+
+    number_people = None
+    number_people_data = []
+    number_people_by_scenario = {}
+    for s in scenarios:
+        number_people_by_scenario[s.name] = 0
+        for k, v in s.number_people.items():
+            number_people_by_scenario[s.name] += v
+            number_people_data.append({"category": k, "scenario": s.name})
+            number_people = alt.expr.if_(
+                (alt.datum.category == k) & (alt.datum.scenario == s.name),
+                v,
+                number_people,
+            )
 
     monthly_cost = None
-    for k, v in monthly_cost_categories.items():
-        monthly_cost = alt.expr.if_(alt.datum.category == k, v, monthly_cost)
-
-    base_pie_chart = alt.Chart(
-        alt.InlineData([{"category": k} for k in monthly_cost_categories.keys()])
-    ).transform_calculate(cost=monthly_cost)
-
-    base_pie_chart_with_theta = base_pie_chart.encode(
-        theta=alt.Theta("cost:Q", stack=True),
-        tooltip=["category:N", "cost:Q"],
-        color=alt.Color(
-            "category:N",
-            legend=None
-            # legend=alt.Legend(
-            # orient='left',
-            # title='Monthly Costs per Room',
-            # direction='vertical',
-            # columns=4
-            # )
+    monthly_cost_data = []
+    for s in scenarios:
+        for k, v in s.monthly_cost.items():
+            monthly_cost_data.append({"category": k, "scenario": s.name})
+            monthly_cost = alt.expr.if_(
+                (alt.datum.category == k) & (alt.datum.scenario == s.name),
+                v,
+                monthly_cost,
+            )
+        monthly_cost /= number_people_by_scenario[s.name]
+    upfront_cost = None
+    upfront_cost_data = []
+    for s in scenarios:
+        for k, v in s.upfront_cost.items():
+            upfront_cost_data.append({"category": k, "scenario": s.name})
+            upfront_cost = alt.expr.if_(
+                (alt.datum.category == k) & (alt.datum.scenario == s.name),
+                v,
+                upfront_cost,
+            )
+    charts = [
+        (
+            alt.Chart(alt.InlineData(monthly_cost_data))
+            .transform_calculate(cost=monthly_cost)
+            .mark_bar()
+            .encode(
+                alt.X("scenario:O"),
+                alt.Y(
+                    "sum(cost):Q",
+                    axis=alt.Axis(format="$.3s", title="Monthly Cost per Resident"),
+                ),
+                alt.Color("category:N"),
+                alt.Tooltip(["category:N", "cost:Q"]),
+            )
         ),
-    )
-
-    pie_arc_chart = base_pie_chart_with_theta.mark_arc(
-        innerRadius=30, outerRadius=120
-    ).encode()
-    pie_text_chart = base_pie_chart_with_theta.mark_text(
-        radius=155, size=15, align="center"
-    ).encode(alt.Text("category:N"))
-
-    pie_sum_text_chart = base_pie_chart.mark_text(radius=0, size=20).encode(
-        alt.Text("cost:Q", aggregate="sum", format="$.2s")
-    )
-    chart = (
-        pie_arc_chart
-        + pie_text_chart
-        + pie_sum_text_chart.properties(
-            width=900,
-            height=400,
-            title={"text": "Price per room per month", "fontSize": 25},
-        )
-    )
+        (
+            alt.Chart(alt.InlineData(number_people_data))
+            .transform_calculate(number_people=number_people)
+            .mark_bar()
+            .encode(
+                alt.X("scenario:O"),
+                alt.Y(
+                    "sum(number_people):Q",
+                    axis=alt.Axis(title="# Residents", tickMinStep=1),
+                ),
+                alt.Color("category:N"),
+                alt.Tooltip(["category:N", "number_people:Q"]),
+            )
+        ),
+        (
+            alt.Chart(alt.InlineData(upfront_cost_data))
+            .transform_calculate(upfront_cost=upfront_cost)
+            .mark_bar()
+            .encode(
+                alt.X("scenario:O"),
+                alt.Y(
+                    "sum(upfront_cost):Q",
+                    axis=alt.Axis(format="$.3s", title="Upfront Cost"),
+                ),
+                alt.Color("category:N"),
+                alt.Tooltip(["category:N", "upfront_cost:Q"]),
+            )
+        ),
+    ]
+    chart = alt.hconcat(*charts)
     for selection in reversed(selections.values()):
         chart = chart.add_selection(selection)
-    for i in range(len(subtitle)):
-        for k, v in variables.items():
-            subtitle[i] = subtitle[i].replace(k, v.title)
     chart = (
         chart.properties(
             title={
