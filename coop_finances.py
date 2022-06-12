@@ -75,166 +75,32 @@ class Variable:
 
 
 def generate_plots(fn, subtitle, **variables):
-    IPython.display.display(generate_plot(fn, subtitle, variables, simple=True))
-    IPython.display.display(generate_plot(fn, subtitle, variables, simple=False))
+    IPython.display.display(generate_plot(fn, subtitle, variables))
 
 
-def generate_plot(fn, subtitle, variables, simple):
-    sequences = {
-        k: alt.sequence(v.options.start, v.options.stop, v.options.step, as_=k)
-        if isinstance(v.options, Range)
-        else alt.InlineData(values=[{k: o} for o in v.options[0]])
-        for k, v in variables.items()
-    }
-
+def generate_plot(fn, subtitle, variables):
     # https://altair-viz.github.io/gallery/multiline_tooltip.html
     selections = {
-        k: (alt.selection_single if simple else alt.selection)(
+        k: alt.selection_single(
             fields=[k],
             init={k: v.default},
-            **(
-                {
-                    "bind": alt.binding_range(
-                        min=v.options.start,
-                        max=v.options.stop,
-                        step=v.options.step,
-                        name=f"{v.title} {v.label}",
-                    )
-                    if isinstance(v.options, Range)
-                    else alt.binding_radio(
-                        options=v.options[0],
-                        labels=v.options[1],
-                        name=f"{v.title} {v.label}",
-                    )
-                }
-                if simple
-                else {
-                    "type": "single",
-                    # https://bl.ocks.org/cwickham/6f9d41c401e73dd7ba5c42ff14814ab5
-                    "on": "mousedown, [mousedown, mouseup] > mousemove, touchstart, [touchstart, touchend] > touchmove",
-                    "nearest": True,
-                }
+            bind=alt.binding_range(
+                min=v.options.start,
+                max=v.options.stop,
+                step=v.options.step,
+                name=f"{v.title} {v.label}",
+            )
+            if isinstance(v.options, Range)
+            else alt.binding_radio(
+                options=v.options[0],
+                labels=v.options[1],
+                name=f"{v.title} {v.label}",
             ),
         )
         for k, v in variables.items()
     }
 
     current_values = {k: getattr(selections[k], k)[0] for k, v in variables.items()}
-    if not simple:
-        line_charts = {
-            k: alt.Chart(sequences[k])
-            .transform_calculate(
-                # Take the sum of all the returned monthly costs
-                monthly_cost=sum(
-                    fn(
-                        **{
-                            # if the input is this variable, use the data field, otherwise use the last selection for it
-                            inner_k: getattr(alt.datum, inner_k)
-                            if inner_k == k
-                            else current_values[inner_k]
-                            for inner_k in variables.keys()
-                        }
-                    ).values()
-                )
-            )
-            .mark_line()
-            .encode(
-                alt.X(
-                    field=k,
-                    axis=alt.Axis(
-                        format=v.axis_format,
-                        title=v.label,
-                        orient="top",
-                        **({"tickMinStep": 1} if v.tp == "O" else {}),
-                    ),
-                    scale=alt.Scale(zero=False, nice=False),
-                    **v.mark_options,
-                ),
-                alt.Y(
-                    "monthly_cost:Q",
-                    axis=alt.Axis(
-                        title="Monthly Cost",
-                        format="$.2s",
-                    ),
-                    scale=alt.Scale(zero=False),
-                ),
-            )
-            for k, v in variables.items()
-        }
-
-        # Transparent selectors across the chart. This is what tells us
-        # the x-value of the cursor
-        transparent_point_charts = {
-            k: alt.Chart(sequences[k])
-            .mark_point()
-            .encode(
-                alt.X(field=k, **v.mark_options),
-                opacity=alt.value(0),
-            )
-            .add_selection(selections[k])
-            for k, v in variables.items()
-        }
-
-        # Draw points on the line, and highlight based on selection
-        point_charts = {
-            k: line_charts[k]
-            .mark_point(shape="triangle", strokeWidth=10, size=100)
-            .encode(opacity=alt.condition(selections[k], alt.value(1), alt.value(0)))
-            for k in variables.keys()
-        }
-        #     For text chart instead:
-        #     point_charts = {
-        #     k: line_charts[k].mark_text(fontSize=30).encode(
-        #         text='label:N',
-        #         opacity=alt.condition(selections[k], alt.value(1), alt.value(0))
-        #     ).transform_calculate(
-        #         label="'↔'"
-        #     )
-        #     for k in variables.keys()
-        # }
-
-        # Draw text labels near the points, and highlight based on selection
-        text_charts = {
-            k: line_charts[k]
-            .mark_text(align="center", baseline="top", dx=5, dy=20, fontSize=20)
-            .encode(
-                text=alt.condition(selections[k], "label:N", alt.value(" ")),
-            )
-            .transform_calculate(
-                label=alt.expr.format(getattr(alt.datum, k), v.axis_format)
-                if v.axis_format
-                else getattr(alt.datum, k)
-            )
-            for k, v in variables.items()
-        }
-
-        # Draw a rule at the location of the selection
-        rule_charts = {
-            k: alt.Chart(sequences[k])
-            .mark_rule(color="gray")
-            .encode(
-                alt.X(field=k, **v.mark_options),
-            )
-            .transform_filter(selections[k])
-            for k, v in variables.items()
-        }
-
-        additional_charts = alt.concat(
-            *(
-                alt.layer(
-                    line_charts[k],
-                    transparent_point_charts[k],
-                    point_charts[k],
-                    text_charts[k],
-                ).properties(
-                    title={"text": v.title, "fontSize": 45},
-                    width=400,
-                    height=400,
-                )
-                for k, v in variables.items()
-            ),
-            columns=2,
-        ).resolve_scale(y="shared")
 
     monthly_cost_categories = fn(**current_values)
 
@@ -280,18 +146,15 @@ def generate_plot(fn, subtitle, variables, simple):
             title={"text": "Price per room per month", "fontSize": 25},
         )
     )
-    if simple:
-        for selection in reversed(selections.values()):
-            chart = chart.add_selection(selection)
-    else:
-        chart = alt.vconcat(chart, additional_charts)
+    for selection in reversed(selections.values()):
+        chart = chart.add_selection(selection)
     for i in range(len(subtitle)):
         for k, v in variables.items():
             subtitle[i] = subtitle[i].replace(k, v.title)
     chart = (
         chart.properties(
             title={
-                "text": f'👇 Drag the {"sliders" if simple else "charts"} to change 🏡 values ❣️',
+                "text": f"👇 Drag the sliders to change 🏡 values ❣️",
                 "anchor": "start",
                 "fontSize": 40,
                 "subtitle": subtitle,
@@ -310,7 +173,5 @@ def generate_plot(fn, subtitle, variables, simple):
             stroke="transparent"
         )
     )
-    pathlib.Path("simple.json" if simple else "complex.json").write_text(
-        chart.to_json(validate=False)
-    )
+    pathlib.Path("simple.json").write_text(chart.to_json(validate=False))
     return chart
