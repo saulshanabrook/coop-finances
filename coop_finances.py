@@ -20,9 +20,8 @@ import pathlib
 import typing
 
 import altair as alt
-import IPython.display
 
-__all__ = ["Variable", "Range", "generate_plots", "Scenario"]
+__all__ = ["Variable", "Range", "generate_plot", "Scenario"]
 WIDTH = 800
 
 
@@ -75,12 +74,8 @@ class Variable:
         )
 
 
-def generate_plots(fn, subtitle, **variables: Variable):
-    IPython.display.display(generate_plot(fn, subtitle, variables))
-
-
 def generate_plot(
-    fn: typing.Callable[..., list[Scenario]], subtitle, variables: dict[str, Variable]
+    fn: typing.Callable[..., list[Scenario]], subtitle, **variables: Variable
 ):
     # https://altair-viz.github.io/gallery/multiline_tooltip.html
     selections = {
