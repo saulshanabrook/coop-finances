@@ -106,7 +106,7 @@ def generate_plot(
     current_values = {k: getattr(selections[k], k)[0] for k, v in variables.items()}
 
     scenarios = fn(**current_values)
-
+    names = [s.name for s in scenarios]
     number_people = None
     number_people_data = []
     number_people_by_scenario = {}
@@ -128,10 +128,10 @@ def generate_plot(
             monthly_cost_data.append({"category": k, "scenario": s.name})
             monthly_cost = alt.expr.if_(
                 (alt.datum.category == k) & (alt.datum.scenario == s.name),
-                v,
+                v / number_people_by_scenario[s.name],
                 monthly_cost,
             )
-        monthly_cost /= number_people_by_scenario[s.name]
+
     upfront_cost = None
     upfront_cost_data = []
     for s in scenarios:
@@ -148,7 +148,7 @@ def generate_plot(
             .transform_calculate(cost=monthly_cost)
             .mark_bar()
             .encode(
-                alt.X("scenario:O"),
+                alt.X("scenario:O", sort=names),
                 alt.Y(
                     "sum(cost):Q",
                     axis=alt.Axis(format="$.3s", title="Monthly Cost per Resident"),
@@ -162,7 +162,7 @@ def generate_plot(
             .transform_calculate(number_people=number_people)
             .mark_bar()
             .encode(
-                alt.X("scenario:O"),
+                alt.X("scenario:O", sort=names),
                 alt.Y(
                     "sum(number_people):Q",
                     axis=alt.Axis(title="# Residents", tickMinStep=1),
@@ -176,7 +176,7 @@ def generate_plot(
             .transform_calculate(upfront_cost=upfront_cost)
             .mark_bar()
             .encode(
-                alt.X("scenario:O"),
+                alt.X("scenario:O", sort=names),
                 alt.Y(
                     "sum(upfront_cost):Q",
                     axis=alt.Axis(format="$.3s", title="Required Investment"),

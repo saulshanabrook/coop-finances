@@ -17,27 +17,7 @@
     }
   },
   "datasets": {
-    "data-30c02a9387ccc73cb0172a7a31878495": [
-      {
-        "category": "Lawyer Fees",
-        "scenario": "Upfront"
-      },
-      {
-        "category": "Purchase",
-        "scenario": "Upfront"
-      }
-    ],
-    "data-8e55f252be5c512d784074486df96d3f": [
-      {
-        "category": "Mobile Home",
-        "scenario": "Upfront"
-      },
-      {
-        "category": "Trailer",
-        "scenario": "Upfront"
-      }
-    ],
-    "data-f8f56e7e564060339749696cb1e54fcb": [
+    "data-a3ae5b5a6d3cd65311f17d9dc545691f": [
       {
         "category": "Investors",
         "scenario": "Upfront"
@@ -81,13 +61,233 @@
       {
         "category": "Bookkeeping",
         "scenario": "Upfront"
+      },
+      {
+        "category": "Investors",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Land Trust",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Property Tax",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Wood",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Propane",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Electric",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Heating Oil",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Internet",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Maintenance",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Insurance",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Bookkeeping",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Investors",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Land Trust",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Property Tax",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Wood",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Propane",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Electric",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Heating Oil",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Internet",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Maintenance",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Insurance",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Bookkeeping",
+        "scenario": "Build Home"
+      }
+    ],
+    "data-e5288849f4b7411c2a552c4e378a7296": [
+      {
+        "category": "Lawyer Fees",
+        "scenario": "Upfront"
+      },
+      {
+        "category": "Purchase",
+        "scenario": "Upfront"
+      },
+      {
+        "category": "Nevin's Cabin - Labor",
+        "scenario": "Upfront"
+      },
+      {
+        "category": "Nevin's Cabin - Materials",
+        "scenario": "Upfront"
+      },
+      {
+        "category": "Storage Shed + Painting Studio",
+        "scenario": "Upfront"
+      },
+      {
+        "category": "Lawyer Fees",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Purchase",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Nevin's Cabin - Labor",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Nevin's Cabin - Materials",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Storage Shed + Painting Studio",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Renovate Sheds",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Lawyer Fees",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Purchase",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Nevin's Cabin - Labor",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Nevin's Cabin - Materials",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Storage Shed + Painting Studio",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Renovate Sheds",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Home",
+        "scenario": "Build Home"
+      }
+    ],
+    "data-e942875fa95b55b796eab896a35a488e": [
+      {
+        "category": "Mobile Home",
+        "scenario": "Upfront"
+      },
+      {
+        "category": "Trailer",
+        "scenario": "Upfront"
+      },
+      {
+        "category": "Meditation Cabin",
+        "scenario": "Upfront"
+      },
+      {
+        "category": "Storage Shed + Painting Studio",
+        "scenario": "Upfront"
+      },
+      {
+        "category": "Mobile Home",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Trailer",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Meditation Cabin",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Storage Shed + Painting Studio",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Renovated Sheds",
+        "scenario": "Renovate Sheds"
+      },
+      {
+        "category": "Trailer",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Meditation Cabin",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Storage Shed + Painting Studio",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "Renovated Sheds",
+        "scenario": "Build Home"
+      },
+      {
+        "category": "House",
+        "scenario": "Build Home"
       }
     ]
   },
   "hconcat": [
     {
       "data": {
-        "name": "data-f8f56e7e564060339749696cb1e54fcb"
+        "name": "data-a3ae5b5a6d3cd65311f17d9dc545691f"
       },
       "encoding": {
         "color": {
@@ -106,6 +306,11 @@
         ],
         "x": {
           "field": "scenario",
+          "sort": [
+            "Upfront",
+            "Renovate Sheds",
+            "Build Home"
+          ],
           "type": "ordinal"
         },
         "y": {
@@ -120,7 +325,7 @@
       },
       "mark": "bar",
       "selection": {
-        "selector001": {
+        "selector075": {
           "bind": {
             "input": "range",
             "max": 4,
@@ -136,7 +341,7 @@
           },
           "type": "single"
         },
-        "selector002": {
+        "selector076": {
           "bind": {
             "input": "range",
             "max": 4,
@@ -152,7 +357,83 @@
           },
           "type": "single"
         },
-        "selector003": {
+        "selector077": {
+          "bind": {
+            "input": "radio",
+            "labels": [
+              "Move Nevin's cabin before sale",
+              "None"
+            ],
+            "name": "\ud83e\uddd8 Meditation Cabin",
+            "options": [
+              true,
+              false
+            ]
+          },
+          "fields": [
+            "nevins_cabin"
+          ],
+          "init": {
+            "nevins_cabin": true
+          },
+          "type": "single"
+        },
+        "selector078": {
+          "bind": {
+            "input": "radio",
+            "labels": [
+              "Shipping container before sale",
+              "Build before sale",
+              "None"
+            ],
+            "name": "\ud83e\uded9 Storage Shed + Painting Studio",
+            "options": [
+              "shipping",
+              "build",
+              0
+            ]
+          },
+          "fields": [
+            "storage_shed"
+          ],
+          "init": {
+            "storage_shed": 0
+          },
+          "type": "single"
+        },
+        "selector079": {
+          "bind": {
+            "input": "range",
+            "max": 10000,
+            "min": 2000,
+            "name": "\ud83d\udea2 Shipping Container Cost",
+            "step": 1000
+          },
+          "fields": [
+            "shipping_container"
+          ],
+          "init": {
+            "shipping_container": 7000
+          },
+          "type": "single"
+        },
+        "selector080": {
+          "bind": {
+            "input": "range",
+            "max": 400,
+            "min": 100,
+            "name": "\ud83d\udc63 Construction cost / sq ft",
+            "step": 50
+          },
+          "fields": [
+            "per_sq_ft"
+          ],
+          "init": {
+            "per_sq_ft": 200
+          },
+          "type": "single"
+        },
+        "selector081": {
           "bind": {
             "input": "range",
             "max": 300000,
@@ -168,7 +449,7 @@
           },
           "type": "single"
         },
-        "selector004": {
+        "selector082": {
           "bind": {
             "input": "range",
             "max": 0.1,
@@ -184,7 +465,7 @@
           },
           "type": "single"
         },
-        "selector005": {
+        "selector083": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -211,7 +492,7 @@
           },
           "type": "single"
         },
-        "selector006": {
+        "selector084": {
           "bind": {
             "input": "range",
             "max": 20000,
@@ -227,7 +508,7 @@
           },
           "type": "single"
         },
-        "selector007": {
+        "selector085": {
           "bind": {
             "input": "range",
             "max": 150000,
@@ -243,7 +524,7 @@
           },
           "type": "single"
         },
-        "selector008": {
+        "selector086": {
           "bind": {
             "input": "range",
             "max": 10000.0,
@@ -259,7 +540,7 @@
           },
           "type": "single"
         },
-        "selector009": {
+        "selector087": {
           "bind": {
             "input": "range",
             "max": 300000,
@@ -275,7 +556,7 @@
           },
           "type": "single"
         },
-        "selector010": {
+        "selector088": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -298,7 +579,7 @@
           },
           "type": "single"
         },
-        "selector011": {
+        "selector089": {
           "bind": {
             "input": "range",
             "max": 800,
@@ -314,7 +595,7 @@
           },
           "type": "single"
         },
-        "selector012": {
+        "selector090": {
           "bind": {
             "input": "range",
             "max": 5,
@@ -330,7 +611,7 @@
           },
           "type": "single"
         },
-        "selector013": {
+        "selector091": {
           "bind": {
             "input": "range",
             "max": 580,
@@ -346,7 +627,7 @@
           },
           "type": "single"
         },
-        "selector014": {
+        "selector092": {
           "bind": {
             "input": "range",
             "max": 2270,
@@ -362,7 +643,7 @@
           },
           "type": "single"
         },
-        "selector015": {
+        "selector093": {
           "bind": {
             "input": "range",
             "max": 3196,
@@ -378,7 +659,7 @@
           },
           "type": "single"
         },
-        "selector016": {
+        "selector094": {
           "bind": {
             "input": "range",
             "max": 750,
@@ -398,13 +679,13 @@
       "transform": [
         {
           "as": "cost",
-          "calculate": "(if(((datum.category === 'Bookkeeping') && (datum.scenario === 'Upfront')),selector010.bookkeeping[0],if(((datum.category === 'Insurance') && (datum.scenario === 'Upfront')),(selector011.insurance[0] / 12),if(((datum.category === 'Maintenance') && (datum.scenario === 'Upfront')),(selector008.maintaince[0] / 12),if(((datum.category === 'Internet') && (datum.scenario === 'Upfront')),99,if(((datum.category === 'Heating Oil') && (datum.scenario === 'Upfront')),(selector016.oil[0] / 12),if(((datum.category === 'Electric') && (datum.scenario === 'Upfront')),(selector015.electric[0] / 12),if(((datum.category === 'Propane') && (datum.scenario === 'Upfront')),(selector014.propane[0] / 12),if(((datum.category === 'Wood') && (datum.scenario === 'Upfront')),((selector012.cords_wood[0] * selector013.price_per_cord[0]) / 12),if(((datum.category === 'Property Tax') && (datum.scenario === 'Upfront')),(((selector009.assessed_value[0] * 2.32) / 100) / 12),if(((datum.category === 'Land Trust') && (datum.scenario === 'Upfront')),if((selector007.clt_value[0] <= 0),0,75),if(((datum.category === 'Investors') && (datum.scenario === 'Upfront')),if((selector005.loan_duration[0] === 0),((selector004.interest_rate[0] / 12) * ((selector003.property_cost[0] + selector006.lawyer_fees[0]) - selector007.clt_value[0])),if(((selector004.interest_rate[0] / 12) === 0),(((selector003.property_cost[0] + selector006.lawyer_fees[0]) - selector007.clt_value[0]) / selector005.loan_duration[0]),(((selector004.interest_rate[0] / 12) * ((selector003.property_cost[0] + selector006.lawyer_fees[0]) - selector007.clt_value[0])) / (1 - pow((1 + (selector004.interest_rate[0] / 12)),(-selector005.loan_duration[0])))))),null))))))))))) / ((0 + selector001.mobile_home[0]) + selector002.trailer[0]))"
+          "calculate": "if(((datum.category === 'Bookkeeping') && (datum.scenario === 'Build Home')),(selector088.bookkeeping[0] / (((((0 + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1) + 3)),if(((datum.category === 'Insurance') && (datum.scenario === 'Build Home')),((selector089.insurance[0] / 12) / (((((0 + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1) + 3)),if(((datum.category === 'Maintenance') && (datum.scenario === 'Build Home')),((selector086.maintaince[0] / 12) / (((((0 + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1) + 3)),if(((datum.category === 'Internet') && (datum.scenario === 'Build Home')),(99 / (((((0 + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1) + 3)),if(((datum.category === 'Heating Oil') && (datum.scenario === 'Build Home')),((selector094.oil[0] / 12) / (((((0 + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1) + 3)),if(((datum.category === 'Electric') && (datum.scenario === 'Build Home')),((selector093.electric[0] / 12) / (((((0 + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1) + 3)),if(((datum.category === 'Propane') && (datum.scenario === 'Build Home')),((selector092.propane[0] / 12) / (((((0 + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1) + 3)),if(((datum.category === 'Wood') && (datum.scenario === 'Build Home')),(((selector090.cords_wood[0] * selector091.price_per_cord[0]) / 12) / (((((0 + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1) + 3)),if(((datum.category === 'Property Tax') && (datum.scenario === 'Build Home')),((((selector087.assessed_value[0] * 2.32) / 100) / 12) / (((((0 + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1) + 3)),if(((datum.category === 'Land Trust') && (datum.scenario === 'Build Home')),(if((selector085.clt_value[0] <= 0),0,75) / (((((0 + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1) + 3)),if(((datum.category === 'Investors') && (datum.scenario === 'Build Home')),(if((selector083.loan_duration[0] === 0),((selector082.interest_rate[0] / 12) * (((((((0 + selector084.lawyer_fees[0]) + (selector081.property_cost[0] - selector085.clt_value[0])) + 12500) + 5000) + if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0))) + (500 * selector080.per_sq_ft[0])) + (1500 * selector080.per_sq_ft[0]))),if(((selector082.interest_rate[0] / 12) === 0),((((((((0 + selector084.lawyer_fees[0]) + (selector081.property_cost[0] - selector085.clt_value[0])) + 12500) + 5000) + if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0))) + (500 * selector080.per_sq_ft[0])) + (1500 * selector080.per_sq_ft[0])) / selector083.loan_duration[0]),(((selector082.interest_rate[0] / 12) * (((((((0 + selector084.lawyer_fees[0]) + (selector081.property_cost[0] - selector085.clt_value[0])) + 12500) + 5000) + if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0))) + (500 * selector080.per_sq_ft[0])) + (1500 * selector080.per_sq_ft[0]))) / (1 - pow((1 + (selector082.interest_rate[0] / 12)),(-selector083.loan_duration[0])))))) / (((((0 + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1) + 3)),if(((datum.category === 'Bookkeeping') && (datum.scenario === 'Renovate Sheds')),(selector088.bookkeeping[0] / (((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1)),if(((datum.category === 'Insurance') && (datum.scenario === 'Renovate Sheds')),((selector089.insurance[0] / 12) / (((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1)),if(((datum.category === 'Maintenance') && (datum.scenario === 'Renovate Sheds')),((selector086.maintaince[0] / 12) / (((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1)),if(((datum.category === 'Internet') && (datum.scenario === 'Renovate Sheds')),(99 / (((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1)),if(((datum.category === 'Heating Oil') && (datum.scenario === 'Renovate Sheds')),((selector094.oil[0] / 12) / (((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1)),if(((datum.category === 'Electric') && (datum.scenario === 'Renovate Sheds')),((selector093.electric[0] / 12) / (((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1)),if(((datum.category === 'Propane') && (datum.scenario === 'Renovate Sheds')),((selector092.propane[0] / 12) / (((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1)),if(((datum.category === 'Wood') && (datum.scenario === 'Renovate Sheds')),(((selector090.cords_wood[0] * selector091.price_per_cord[0]) / 12) / (((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1)),if(((datum.category === 'Property Tax') && (datum.scenario === 'Renovate Sheds')),((((selector087.assessed_value[0] * 2.32) / 100) / 12) / (((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1)),if(((datum.category === 'Land Trust') && (datum.scenario === 'Renovate Sheds')),(if((selector085.clt_value[0] <= 0),0,75) / (((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1)),if(((datum.category === 'Investors') && (datum.scenario === 'Renovate Sheds')),(if((selector083.loan_duration[0] === 0),((selector082.interest_rate[0] / 12) * ((((((0 + selector084.lawyer_fees[0]) + (selector081.property_cost[0] - selector085.clt_value[0])) + 12500) + 5000) + if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0))) + 100000)),if(((selector082.interest_rate[0] / 12) === 0),(((((((0 + selector084.lawyer_fees[0]) + (selector081.property_cost[0] - selector085.clt_value[0])) + 12500) + 5000) + if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0))) + 100000) / selector083.loan_duration[0]),(((selector082.interest_rate[0] / 12) * ((((((0 + selector084.lawyer_fees[0]) + (selector081.property_cost[0] - selector085.clt_value[0])) + 12500) + 5000) + if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0))) + 100000)) / (1 - pow((1 + (selector082.interest_rate[0] / 12)),(-selector083.loan_duration[0])))))) / (((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0))) + 1)),if(((datum.category === 'Bookkeeping') && (datum.scenario === 'Upfront')),(selector088.bookkeeping[0] / ((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)))),if(((datum.category === 'Insurance') && (datum.scenario === 'Upfront')),((selector089.insurance[0] / 12) / ((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)))),if(((datum.category === 'Maintenance') && (datum.scenario === 'Upfront')),((selector086.maintaince[0] / 12) / ((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)))),if(((datum.category === 'Internet') && (datum.scenario === 'Upfront')),(99 / ((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)))),if(((datum.category === 'Heating Oil') && (datum.scenario === 'Upfront')),((selector094.oil[0] / 12) / ((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)))),if(((datum.category === 'Electric') && (datum.scenario === 'Upfront')),((selector093.electric[0] / 12) / ((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)))),if(((datum.category === 'Propane') && (datum.scenario === 'Upfront')),((selector092.propane[0] / 12) / ((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)))),if(((datum.category === 'Wood') && (datum.scenario === 'Upfront')),(((selector090.cords_wood[0] * selector091.price_per_cord[0]) / 12) / ((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)))),if(((datum.category === 'Property Tax') && (datum.scenario === 'Upfront')),((((selector087.assessed_value[0] * 2.32) / 100) / 12) / ((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)))),if(((datum.category === 'Land Trust') && (datum.scenario === 'Upfront')),(if((selector085.clt_value[0] <= 0),0,75) / ((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)))),if(((datum.category === 'Investors') && (datum.scenario === 'Upfront')),(if((selector083.loan_duration[0] === 0),((selector082.interest_rate[0] / 12) * (((((0 + selector084.lawyer_fees[0]) + (selector081.property_cost[0] - selector085.clt_value[0])) + 12500) + 5000) + if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0)))),if(((selector082.interest_rate[0] / 12) === 0),((((((0 + selector084.lawyer_fees[0]) + (selector081.property_cost[0] - selector085.clt_value[0])) + 12500) + 5000) + if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0))) / selector083.loan_duration[0]),(((selector082.interest_rate[0] / 12) * (((((0 + selector084.lawyer_fees[0]) + (selector081.property_cost[0] - selector085.clt_value[0])) + 12500) + 5000) + if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0)))) / (1 - pow((1 + (selector082.interest_rate[0] / 12)),(-selector083.loan_duration[0])))))) / ((((0 + selector075.mobile_home[0]) + selector076.trailer[0]) + if(selector077.nevins_cabin[0],1,0)) + if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)))),null)))))))))))))))))))))))))))))))))"
         }
       ]
     },
     {
       "data": {
-        "name": "data-8e55f252be5c512d784074486df96d3f"
+        "name": "data-e942875fa95b55b796eab896a35a488e"
       },
       "encoding": {
         "color": {
@@ -423,6 +704,11 @@
         ],
         "x": {
           "field": "scenario",
+          "sort": [
+            "Upfront",
+            "Renovate Sheds",
+            "Build Home"
+          ],
           "type": "ordinal"
         },
         "y": {
@@ -437,7 +723,7 @@
       },
       "mark": "bar",
       "selection": {
-        "selector001": {
+        "selector075": {
           "bind": {
             "input": "range",
             "max": 4,
@@ -453,7 +739,7 @@
           },
           "type": "single"
         },
-        "selector002": {
+        "selector076": {
           "bind": {
             "input": "range",
             "max": 4,
@@ -469,7 +755,83 @@
           },
           "type": "single"
         },
-        "selector003": {
+        "selector077": {
+          "bind": {
+            "input": "radio",
+            "labels": [
+              "Move Nevin's cabin before sale",
+              "None"
+            ],
+            "name": "\ud83e\uddd8 Meditation Cabin",
+            "options": [
+              true,
+              false
+            ]
+          },
+          "fields": [
+            "nevins_cabin"
+          ],
+          "init": {
+            "nevins_cabin": true
+          },
+          "type": "single"
+        },
+        "selector078": {
+          "bind": {
+            "input": "radio",
+            "labels": [
+              "Shipping container before sale",
+              "Build before sale",
+              "None"
+            ],
+            "name": "\ud83e\uded9 Storage Shed + Painting Studio",
+            "options": [
+              "shipping",
+              "build",
+              0
+            ]
+          },
+          "fields": [
+            "storage_shed"
+          ],
+          "init": {
+            "storage_shed": 0
+          },
+          "type": "single"
+        },
+        "selector079": {
+          "bind": {
+            "input": "range",
+            "max": 10000,
+            "min": 2000,
+            "name": "\ud83d\udea2 Shipping Container Cost",
+            "step": 1000
+          },
+          "fields": [
+            "shipping_container"
+          ],
+          "init": {
+            "shipping_container": 7000
+          },
+          "type": "single"
+        },
+        "selector080": {
+          "bind": {
+            "input": "range",
+            "max": 400,
+            "min": 100,
+            "name": "\ud83d\udc63 Construction cost / sq ft",
+            "step": 50
+          },
+          "fields": [
+            "per_sq_ft"
+          ],
+          "init": {
+            "per_sq_ft": 200
+          },
+          "type": "single"
+        },
+        "selector081": {
           "bind": {
             "input": "range",
             "max": 300000,
@@ -485,7 +847,7 @@
           },
           "type": "single"
         },
-        "selector004": {
+        "selector082": {
           "bind": {
             "input": "range",
             "max": 0.1,
@@ -501,7 +863,7 @@
           },
           "type": "single"
         },
-        "selector005": {
+        "selector083": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -528,7 +890,7 @@
           },
           "type": "single"
         },
-        "selector006": {
+        "selector084": {
           "bind": {
             "input": "range",
             "max": 20000,
@@ -544,7 +906,7 @@
           },
           "type": "single"
         },
-        "selector007": {
+        "selector085": {
           "bind": {
             "input": "range",
             "max": 150000,
@@ -560,7 +922,7 @@
           },
           "type": "single"
         },
-        "selector008": {
+        "selector086": {
           "bind": {
             "input": "range",
             "max": 10000.0,
@@ -576,7 +938,7 @@
           },
           "type": "single"
         },
-        "selector009": {
+        "selector087": {
           "bind": {
             "input": "range",
             "max": 300000,
@@ -592,7 +954,7 @@
           },
           "type": "single"
         },
-        "selector010": {
+        "selector088": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -615,7 +977,7 @@
           },
           "type": "single"
         },
-        "selector011": {
+        "selector089": {
           "bind": {
             "input": "range",
             "max": 800,
@@ -631,7 +993,7 @@
           },
           "type": "single"
         },
-        "selector012": {
+        "selector090": {
           "bind": {
             "input": "range",
             "max": 5,
@@ -647,7 +1009,7 @@
           },
           "type": "single"
         },
-        "selector013": {
+        "selector091": {
           "bind": {
             "input": "range",
             "max": 580,
@@ -663,7 +1025,7 @@
           },
           "type": "single"
         },
-        "selector014": {
+        "selector092": {
           "bind": {
             "input": "range",
             "max": 2270,
@@ -679,7 +1041,7 @@
           },
           "type": "single"
         },
-        "selector015": {
+        "selector093": {
           "bind": {
             "input": "range",
             "max": 3196,
@@ -695,7 +1057,7 @@
           },
           "type": "single"
         },
-        "selector016": {
+        "selector094": {
           "bind": {
             "input": "range",
             "max": 750,
@@ -715,13 +1077,13 @@
       "transform": [
         {
           "as": "number_people",
-          "calculate": "if(((datum.category === 'Trailer') && (datum.scenario === 'Upfront')),selector002.trailer[0],if(((datum.category === 'Mobile Home') && (datum.scenario === 'Upfront')),selector001.mobile_home[0],null))"
+          "calculate": "if(((datum.category === 'House') && (datum.scenario === 'Build Home')),3,if(((datum.category === 'Renovated Sheds') && (datum.scenario === 'Build Home')),1,if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === 'Build Home')),if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)),if(((datum.category === 'Meditation Cabin') && (datum.scenario === 'Build Home')),if(selector077.nevins_cabin[0],1,0),if(((datum.category === 'Trailer') && (datum.scenario === 'Build Home')),selector076.trailer[0],if(((datum.category === 'Renovated Sheds') && (datum.scenario === 'Renovate Sheds')),1,if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === 'Renovate Sheds')),if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)),if(((datum.category === 'Meditation Cabin') && (datum.scenario === 'Renovate Sheds')),if(selector077.nevins_cabin[0],1,0),if(((datum.category === 'Trailer') && (datum.scenario === 'Renovate Sheds')),selector076.trailer[0],if(((datum.category === 'Mobile Home') && (datum.scenario === 'Renovate Sheds')),selector075.mobile_home[0],if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === 'Upfront')),if((selector078.storage_shed[0] === 'shipping'),1,if((selector078.storage_shed[0] === 'build'),2,0)),if(((datum.category === 'Meditation Cabin') && (datum.scenario === 'Upfront')),if(selector077.nevins_cabin[0],1,0),if(((datum.category === 'Trailer') && (datum.scenario === 'Upfront')),selector076.trailer[0],if(((datum.category === 'Mobile Home') && (datum.scenario === 'Upfront')),selector075.mobile_home[0],null))))))))))))))"
         }
       ]
     },
     {
       "data": {
-        "name": "data-30c02a9387ccc73cb0172a7a31878495"
+        "name": "data-e5288849f4b7411c2a552c4e378a7296"
       },
       "encoding": {
         "color": {
@@ -740,6 +1102,11 @@
         ],
         "x": {
           "field": "scenario",
+          "sort": [
+            "Upfront",
+            "Renovate Sheds",
+            "Build Home"
+          ],
           "type": "ordinal"
         },
         "y": {
@@ -754,7 +1121,7 @@
       },
       "mark": "bar",
       "selection": {
-        "selector001": {
+        "selector075": {
           "bind": {
             "input": "range",
             "max": 4,
@@ -770,7 +1137,7 @@
           },
           "type": "single"
         },
-        "selector002": {
+        "selector076": {
           "bind": {
             "input": "range",
             "max": 4,
@@ -786,7 +1153,83 @@
           },
           "type": "single"
         },
-        "selector003": {
+        "selector077": {
+          "bind": {
+            "input": "radio",
+            "labels": [
+              "Move Nevin's cabin before sale",
+              "None"
+            ],
+            "name": "\ud83e\uddd8 Meditation Cabin",
+            "options": [
+              true,
+              false
+            ]
+          },
+          "fields": [
+            "nevins_cabin"
+          ],
+          "init": {
+            "nevins_cabin": true
+          },
+          "type": "single"
+        },
+        "selector078": {
+          "bind": {
+            "input": "radio",
+            "labels": [
+              "Shipping container before sale",
+              "Build before sale",
+              "None"
+            ],
+            "name": "\ud83e\uded9 Storage Shed + Painting Studio",
+            "options": [
+              "shipping",
+              "build",
+              0
+            ]
+          },
+          "fields": [
+            "storage_shed"
+          ],
+          "init": {
+            "storage_shed": 0
+          },
+          "type": "single"
+        },
+        "selector079": {
+          "bind": {
+            "input": "range",
+            "max": 10000,
+            "min": 2000,
+            "name": "\ud83d\udea2 Shipping Container Cost",
+            "step": 1000
+          },
+          "fields": [
+            "shipping_container"
+          ],
+          "init": {
+            "shipping_container": 7000
+          },
+          "type": "single"
+        },
+        "selector080": {
+          "bind": {
+            "input": "range",
+            "max": 400,
+            "min": 100,
+            "name": "\ud83d\udc63 Construction cost / sq ft",
+            "step": 50
+          },
+          "fields": [
+            "per_sq_ft"
+          ],
+          "init": {
+            "per_sq_ft": 200
+          },
+          "type": "single"
+        },
+        "selector081": {
           "bind": {
             "input": "range",
             "max": 300000,
@@ -802,7 +1245,7 @@
           },
           "type": "single"
         },
-        "selector004": {
+        "selector082": {
           "bind": {
             "input": "range",
             "max": 0.1,
@@ -818,7 +1261,7 @@
           },
           "type": "single"
         },
-        "selector005": {
+        "selector083": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -845,7 +1288,7 @@
           },
           "type": "single"
         },
-        "selector006": {
+        "selector084": {
           "bind": {
             "input": "range",
             "max": 20000,
@@ -861,7 +1304,7 @@
           },
           "type": "single"
         },
-        "selector007": {
+        "selector085": {
           "bind": {
             "input": "range",
             "max": 150000,
@@ -877,7 +1320,7 @@
           },
           "type": "single"
         },
-        "selector008": {
+        "selector086": {
           "bind": {
             "input": "range",
             "max": 10000.0,
@@ -893,7 +1336,7 @@
           },
           "type": "single"
         },
-        "selector009": {
+        "selector087": {
           "bind": {
             "input": "range",
             "max": 300000,
@@ -909,7 +1352,7 @@
           },
           "type": "single"
         },
-        "selector010": {
+        "selector088": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -932,7 +1375,7 @@
           },
           "type": "single"
         },
-        "selector011": {
+        "selector089": {
           "bind": {
             "input": "range",
             "max": 800,
@@ -948,7 +1391,7 @@
           },
           "type": "single"
         },
-        "selector012": {
+        "selector090": {
           "bind": {
             "input": "range",
             "max": 5,
@@ -964,7 +1407,7 @@
           },
           "type": "single"
         },
-        "selector013": {
+        "selector091": {
           "bind": {
             "input": "range",
             "max": 580,
@@ -980,7 +1423,7 @@
           },
           "type": "single"
         },
-        "selector014": {
+        "selector092": {
           "bind": {
             "input": "range",
             "max": 2270,
@@ -996,7 +1439,7 @@
           },
           "type": "single"
         },
-        "selector015": {
+        "selector093": {
           "bind": {
             "input": "range",
             "max": 3196,
@@ -1012,7 +1455,7 @@
           },
           "type": "single"
         },
-        "selector016": {
+        "selector094": {
           "bind": {
             "input": "range",
             "max": 750,
@@ -1032,7 +1475,7 @@
       "transform": [
         {
           "as": "upfront_cost",
-          "calculate": "if(((datum.category === 'Purchase') && (datum.scenario === 'Upfront')),(selector003.property_cost[0] - selector007.clt_value[0]),if(((datum.category === 'Lawyer Fees') && (datum.scenario === 'Upfront')),selector006.lawyer_fees[0],null))"
+          "calculate": "if(((datum.category === 'Home') && (datum.scenario === 'Build Home')),(1500 * selector080.per_sq_ft[0]),if(((datum.category === 'Renovate Sheds') && (datum.scenario === 'Build Home')),(500 * selector080.per_sq_ft[0]),if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === 'Build Home')),if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0)),if(((datum.category === \"Nevin's Cabin - Materials\") && (datum.scenario === 'Build Home')),5000,if(((datum.category === \"Nevin's Cabin - Labor\") && (datum.scenario === 'Build Home')),12500,if(((datum.category === 'Purchase') && (datum.scenario === 'Build Home')),(selector081.property_cost[0] - selector085.clt_value[0]),if(((datum.category === 'Lawyer Fees') && (datum.scenario === 'Build Home')),selector084.lawyer_fees[0],if(((datum.category === 'Renovate Sheds') && (datum.scenario === 'Renovate Sheds')),100000,if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === 'Renovate Sheds')),if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0)),if(((datum.category === \"Nevin's Cabin - Materials\") && (datum.scenario === 'Renovate Sheds')),5000,if(((datum.category === \"Nevin's Cabin - Labor\") && (datum.scenario === 'Renovate Sheds')),12500,if(((datum.category === 'Purchase') && (datum.scenario === 'Renovate Sheds')),(selector081.property_cost[0] - selector085.clt_value[0]),if(((datum.category === 'Lawyer Fees') && (datum.scenario === 'Renovate Sheds')),selector084.lawyer_fees[0],if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === 'Upfront')),if((selector078.storage_shed[0] === 'shipping'),selector079.shipping_container[0],if((selector078.storage_shed[0] === 'build'),(1000 * selector080.per_sq_ft[0]),0)),if(((datum.category === \"Nevin's Cabin - Materials\") && (datum.scenario === 'Upfront')),5000,if(((datum.category === \"Nevin's Cabin - Labor\") && (datum.scenario === 'Upfront')),12500,if(((datum.category === 'Purchase') && (datum.scenario === 'Upfront')),(selector081.property_cost[0] - selector085.clt_value[0]),if(((datum.category === 'Lawyer Fees') && (datum.scenario === 'Upfront')),selector084.lawyer_fees[0],null))))))))))))))))))"
         }
       ]
     }
