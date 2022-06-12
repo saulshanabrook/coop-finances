@@ -131,7 +131,7 @@
           "transform": [
             {
               "as": "cost",
-              "calculate": "if((datum.category === 'Bookkeeping'),(selector464.bookkeeping[0] / selector456.rooms[0]),if((datum.category === 'Insurance'),((selector465.insurance[0] / 12) / selector456.rooms[0]),if((datum.category === 'Maintenance'),((selector462.maintaince[0] / 12) / selector456.rooms[0]),if((datum.category === 'Internet'),(99 / selector456.rooms[0]),if((datum.category === 'Heating Oil'),((selector470.oil[0] / 12) / selector456.rooms[0]),if((datum.category === 'Electric'),((selector469.electric[0] / 12) / selector456.rooms[0]),if((datum.category === 'Propane'),((selector468.propane[0] / 12) / selector456.rooms[0]),if((datum.category === 'Wood'),(((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0]),if((datum.category === 'Property Tax'),((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0]),if((datum.category === 'Land Trust'),if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0])),if((datum.category === 'Investors'),(if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0]),null)))))))))))"
+              "calculate": "if((datum.category === 'Bookkeeping'),(selector039.bookkeeping[0] / selector031.rooms[0]),if((datum.category === 'Insurance'),((selector040.insurance[0] / 12) / selector031.rooms[0]),if((datum.category === 'Maintenance'),((selector037.maintaince[0] / 12) / selector031.rooms[0]),if((datum.category === 'Internet'),(99 / selector031.rooms[0]),if((datum.category === 'Heating Oil'),((selector045.oil[0] / 12) / selector031.rooms[0]),if((datum.category === 'Electric'),((selector044.electric[0] / 12) / selector031.rooms[0]),if((datum.category === 'Propane'),((selector043.propane[0] / 12) / selector031.rooms[0]),if((datum.category === 'Wood'),(((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0]),if((datum.category === 'Property Tax'),((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0]),if((datum.category === 'Land Trust'),if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0])),if((datum.category === 'Investors'),(if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0]),null)))))))))))"
             }
           ]
         },
@@ -171,7 +171,7 @@
           "transform": [
             {
               "as": "cost",
-              "calculate": "if((datum.category === 'Bookkeeping'),(selector464.bookkeeping[0] / selector456.rooms[0]),if((datum.category === 'Insurance'),((selector465.insurance[0] / 12) / selector456.rooms[0]),if((datum.category === 'Maintenance'),((selector462.maintaince[0] / 12) / selector456.rooms[0]),if((datum.category === 'Internet'),(99 / selector456.rooms[0]),if((datum.category === 'Heating Oil'),((selector470.oil[0] / 12) / selector456.rooms[0]),if((datum.category === 'Electric'),((selector469.electric[0] / 12) / selector456.rooms[0]),if((datum.category === 'Propane'),((selector468.propane[0] / 12) / selector456.rooms[0]),if((datum.category === 'Wood'),(((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0]),if((datum.category === 'Property Tax'),((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0]),if((datum.category === 'Land Trust'),if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0])),if((datum.category === 'Investors'),(if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0]),null)))))))))))"
+              "calculate": "if((datum.category === 'Bookkeeping'),(selector039.bookkeeping[0] / selector031.rooms[0]),if((datum.category === 'Insurance'),((selector040.insurance[0] / 12) / selector031.rooms[0]),if((datum.category === 'Maintenance'),((selector037.maintaince[0] / 12) / selector031.rooms[0]),if((datum.category === 'Internet'),(99 / selector031.rooms[0]),if((datum.category === 'Heating Oil'),((selector045.oil[0] / 12) / selector031.rooms[0]),if((datum.category === 'Electric'),((selector044.electric[0] / 12) / selector031.rooms[0]),if((datum.category === 'Propane'),((selector043.propane[0] / 12) / selector031.rooms[0]),if((datum.category === 'Wood'),(((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0]),if((datum.category === 'Property Tax'),((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0]),if((datum.category === 'Land Trust'),if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0])),if((datum.category === 'Investors'),(if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0]),null)))))))))))"
             }
           ]
         },
@@ -197,7 +197,7 @@
           "transform": [
             {
               "as": "cost",
-              "calculate": "if((datum.category === 'Bookkeeping'),(selector464.bookkeeping[0] / selector456.rooms[0]),if((datum.category === 'Insurance'),((selector465.insurance[0] / 12) / selector456.rooms[0]),if((datum.category === 'Maintenance'),((selector462.maintaince[0] / 12) / selector456.rooms[0]),if((datum.category === 'Internet'),(99 / selector456.rooms[0]),if((datum.category === 'Heating Oil'),((selector470.oil[0] / 12) / selector456.rooms[0]),if((datum.category === 'Electric'),((selector469.electric[0] / 12) / selector456.rooms[0]),if((datum.category === 'Propane'),((selector468.propane[0] / 12) / selector456.rooms[0]),if((datum.category === 'Wood'),(((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0]),if((datum.category === 'Property Tax'),((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0]),if((datum.category === 'Land Trust'),if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0])),if((datum.category === 'Investors'),(if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0]),null)))))))))))"
+              "calculate": "if((datum.category === 'Bookkeeping'),(selector039.bookkeeping[0] / selector031.rooms[0]),if((datum.category === 'Insurance'),((selector040.insurance[0] / 12) / selector031.rooms[0]),if((datum.category === 'Maintenance'),((selector037.maintaince[0] / 12) / selector031.rooms[0]),if((datum.category === 'Internet'),(99 / selector031.rooms[0]),if((datum.category === 'Heating Oil'),((selector045.oil[0] / 12) / selector031.rooms[0]),if((datum.category === 'Electric'),((selector044.electric[0] / 12) / selector031.rooms[0]),if((datum.category === 'Propane'),((selector043.propane[0] / 12) / selector031.rooms[0]),if((datum.category === 'Wood'),(((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0]),if((datum.category === 'Property Tax'),((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0]),if((datum.category === 'Land Trust'),if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0])),if((datum.category === 'Investors'),(if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0]),null)))))))))))"
             }
           ],
           "width": 900
@@ -250,7 +250,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / datum.rooms)) + if((selector461.clt_value[0] <= 0),0,(75 / datum.rooms))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / datum.rooms)) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / datum.rooms)) + ((selector468.propane[0] / 12) / datum.rooms)) + ((selector469.electric[0] / 12) / datum.rooms)) + ((selector470.oil[0] / 12) / datum.rooms)) + (99 / datum.rooms)) + ((selector462.maintaince[0] / 12) / datum.rooms)) + ((selector465.insurance[0] / 12) / datum.rooms)) + (selector464.bookkeeping[0] / datum.rooms))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / datum.rooms)) + if((selector036.clt_value[0] <= 0),0,(75 / datum.rooms))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / datum.rooms)) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / datum.rooms)) + ((selector043.propane[0] / 12) / datum.rooms)) + ((selector044.electric[0] / 12) / datum.rooms)) + ((selector045.oil[0] / 12) / datum.rooms)) + (99 / datum.rooms)) + ((selector037.maintaince[0] / 12) / datum.rooms)) + ((selector040.insurance[0] / 12) / datum.rooms)) + (selector039.bookkeeping[0] / datum.rooms))"
                 }
               ]
             },
@@ -266,7 +266,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector456": {
+                "selector031": {
                   "fields": [
                     "rooms"
                   ],
@@ -283,7 +283,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector456",
+                    "selection": "selector031",
                     "value": 1
                   },
                   "value": 0
@@ -323,7 +323,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / datum.rooms)) + if((selector461.clt_value[0] <= 0),0,(75 / datum.rooms))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / datum.rooms)) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / datum.rooms)) + ((selector468.propane[0] / 12) / datum.rooms)) + ((selector469.electric[0] / 12) / datum.rooms)) + ((selector470.oil[0] / 12) / datum.rooms)) + (99 / datum.rooms)) + ((selector462.maintaince[0] / 12) / datum.rooms)) + ((selector465.insurance[0] / 12) / datum.rooms)) + (selector464.bookkeeping[0] / datum.rooms))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / datum.rooms)) + if((selector036.clt_value[0] <= 0),0,(75 / datum.rooms))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / datum.rooms)) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / datum.rooms)) + ((selector043.propane[0] / 12) / datum.rooms)) + ((selector044.electric[0] / 12) / datum.rooms)) + ((selector045.oil[0] / 12) / datum.rooms)) + (99 / datum.rooms)) + ((selector037.maintaince[0] / 12) / datum.rooms)) + ((selector040.insurance[0] / 12) / datum.rooms)) + (selector039.bookkeeping[0] / datum.rooms))"
                 }
               ]
             },
@@ -332,7 +332,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector456",
+                    "selection": "selector031",
                     "type": "nominal"
                   },
                   "value": " "
@@ -374,7 +374,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / datum.rooms)) + if((selector461.clt_value[0] <= 0),0,(75 / datum.rooms))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / datum.rooms)) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / datum.rooms)) + ((selector468.propane[0] / 12) / datum.rooms)) + ((selector469.electric[0] / 12) / datum.rooms)) + ((selector470.oil[0] / 12) / datum.rooms)) + (99 / datum.rooms)) + ((selector462.maintaince[0] / 12) / datum.rooms)) + ((selector465.insurance[0] / 12) / datum.rooms)) + (selector464.bookkeeping[0] / datum.rooms))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / datum.rooms)) + if((selector036.clt_value[0] <= 0),0,(75 / datum.rooms))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / datum.rooms)) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / datum.rooms)) + ((selector043.propane[0] / 12) / datum.rooms)) + ((selector044.electric[0] / 12) / datum.rooms)) + ((selector045.oil[0] / 12) / datum.rooms)) + (99 / datum.rooms)) + ((selector037.maintaince[0] / 12) / datum.rooms)) + ((selector040.insurance[0] / 12) / datum.rooms)) + (selector039.bookkeeping[0] / datum.rooms))"
                 },
                 {
                   "as": "label",
@@ -431,7 +431,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((datum.property_cost + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((datum.property_cost + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((datum.property_cost + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((datum.property_cost + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((datum.property_cost + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((datum.property_cost + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -447,7 +447,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector457": {
+                "selector032": {
                   "fields": [
                     "property_cost"
                   ],
@@ -464,7 +464,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector457",
+                    "selection": "selector032",
                     "value": 1
                   },
                   "value": 0
@@ -503,7 +503,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((datum.property_cost + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((datum.property_cost + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((datum.property_cost + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((datum.property_cost + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((datum.property_cost + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((datum.property_cost + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -512,7 +512,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector457",
+                    "selection": "selector032",
                     "type": "nominal"
                   },
                   "value": " "
@@ -553,7 +553,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((datum.property_cost + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((datum.property_cost + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((datum.property_cost + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((datum.property_cost + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((datum.property_cost + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((datum.property_cost + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -610,7 +610,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((datum.interest_rate / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((datum.interest_rate / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((datum.interest_rate / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (datum.interest_rate / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((datum.interest_rate / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((datum.interest_rate / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((datum.interest_rate / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (datum.interest_rate / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -626,7 +626,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector458": {
+                "selector033": {
                   "fields": [
                     "interest_rate"
                   ],
@@ -643,7 +643,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector458",
+                    "selection": "selector033",
                     "value": 1
                   },
                   "value": 0
@@ -682,7 +682,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((datum.interest_rate / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((datum.interest_rate / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((datum.interest_rate / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (datum.interest_rate / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((datum.interest_rate / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((datum.interest_rate / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((datum.interest_rate / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (datum.interest_rate / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -691,7 +691,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector458",
+                    "selection": "selector033",
                     "type": "nominal"
                   },
                   "value": " "
@@ -732,7 +732,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((datum.interest_rate / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((datum.interest_rate / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((datum.interest_rate / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (datum.interest_rate / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((datum.interest_rate / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((datum.interest_rate / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((datum.interest_rate / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (datum.interest_rate / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -791,7 +791,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((datum.loan_duration === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / datum.loan_duration),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-datum.loan_duration)))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((datum.loan_duration === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / datum.loan_duration),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-datum.loan_duration)))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -814,7 +814,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector459": {
+                "selector034": {
                   "fields": [
                     "loan_duration"
                   ],
@@ -831,7 +831,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector459",
+                    "selection": "selector034",
                     "value": 1
                   },
                   "value": 0
@@ -877,7 +877,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((datum.loan_duration === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / datum.loan_duration),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-datum.loan_duration)))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((datum.loan_duration === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / datum.loan_duration),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-datum.loan_duration)))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -886,7 +886,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector459",
+                    "selection": "selector034",
                     "type": "nominal"
                   },
                   "value": " "
@@ -934,7 +934,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((datum.loan_duration === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / datum.loan_duration),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-datum.loan_duration)))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((datum.loan_duration === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / datum.loan_duration),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-datum.loan_duration)))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -991,7 +991,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + datum.lawyer_fees) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + datum.lawyer_fees) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + datum.lawyer_fees) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + datum.lawyer_fees) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + datum.lawyer_fees) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + datum.lawyer_fees) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1007,7 +1007,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector460": {
+                "selector035": {
                   "fields": [
                     "lawyer_fees"
                   ],
@@ -1024,7 +1024,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector460",
+                    "selection": "selector035",
                     "value": 1
                   },
                   "value": 0
@@ -1063,7 +1063,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + datum.lawyer_fees) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + datum.lawyer_fees) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + datum.lawyer_fees) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + datum.lawyer_fees) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + datum.lawyer_fees) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + datum.lawyer_fees) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1072,7 +1072,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector460",
+                    "selection": "selector035",
                     "type": "nominal"
                   },
                   "value": " "
@@ -1113,7 +1113,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + datum.lawyer_fees) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + datum.lawyer_fees) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + datum.lawyer_fees) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + datum.lawyer_fees) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + datum.lawyer_fees) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + datum.lawyer_fees) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -1170,7 +1170,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - datum.clt_value)),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - datum.clt_value) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - datum.clt_value)) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((datum.clt_value <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - datum.clt_value)),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - datum.clt_value) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - datum.clt_value)) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((datum.clt_value <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1186,7 +1186,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector461": {
+                "selector036": {
                   "fields": [
                     "clt_value"
                   ],
@@ -1203,7 +1203,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector461",
+                    "selection": "selector036",
                     "value": 1
                   },
                   "value": 0
@@ -1242,7 +1242,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - datum.clt_value)),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - datum.clt_value) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - datum.clt_value)) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((datum.clt_value <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - datum.clt_value)),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - datum.clt_value) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - datum.clt_value)) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((datum.clt_value <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1251,7 +1251,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector461",
+                    "selection": "selector036",
                     "type": "nominal"
                   },
                   "value": " "
@@ -1292,7 +1292,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - datum.clt_value)),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - datum.clt_value) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - datum.clt_value)) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((datum.clt_value <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - datum.clt_value)),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - datum.clt_value) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - datum.clt_value)) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((datum.clt_value <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -1349,7 +1349,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((datum.maintaince / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((datum.maintaince / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1365,7 +1365,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector462": {
+                "selector037": {
                   "fields": [
                     "maintaince"
                   ],
@@ -1382,7 +1382,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector462",
+                    "selection": "selector037",
                     "value": 1
                   },
                   "value": 0
@@ -1421,7 +1421,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((datum.maintaince / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((datum.maintaince / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1430,7 +1430,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector462",
+                    "selection": "selector037",
                     "type": "nominal"
                   },
                   "value": " "
@@ -1471,7 +1471,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((datum.maintaince / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((datum.maintaince / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -1528,7 +1528,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((datum.assessed_value * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((datum.assessed_value * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1544,7 +1544,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector463": {
+                "selector038": {
                   "fields": [
                     "assessed_value"
                   ],
@@ -1561,7 +1561,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector463",
+                    "selection": "selector038",
                     "value": 1
                   },
                   "value": 0
@@ -1600,7 +1600,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((datum.assessed_value * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((datum.assessed_value * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1609,7 +1609,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector463",
+                    "selection": "selector038",
                     "type": "nominal"
                   },
                   "value": " "
@@ -1650,7 +1650,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((datum.assessed_value * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((datum.assessed_value * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -1707,7 +1707,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (datum.bookkeeping / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (datum.bookkeeping / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1728,7 +1728,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector464": {
+                "selector039": {
                   "fields": [
                     "bookkeeping"
                   ],
@@ -1745,7 +1745,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector464",
+                    "selection": "selector039",
                     "value": 1
                   },
                   "value": 0
@@ -1789,7 +1789,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (datum.bookkeeping / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (datum.bookkeeping / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1798,7 +1798,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector464",
+                    "selection": "selector039",
                     "type": "nominal"
                   },
                   "value": " "
@@ -1844,7 +1844,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (datum.bookkeeping / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (datum.bookkeeping / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -1901,7 +1901,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((datum.insurance / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((datum.insurance / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1917,7 +1917,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector465": {
+                "selector040": {
                   "fields": [
                     "insurance"
                   ],
@@ -1934,7 +1934,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector465",
+                    "selection": "selector040",
                     "value": 1
                   },
                   "value": 0
@@ -1973,7 +1973,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((datum.insurance / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((datum.insurance / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -1982,7 +1982,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector465",
+                    "selection": "selector040",
                     "type": "nominal"
                   },
                   "value": " "
@@ -2023,7 +2023,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((datum.insurance / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((datum.insurance / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -2080,7 +2080,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((datum.cords_wood * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((datum.cords_wood * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -2096,7 +2096,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector466": {
+                "selector041": {
                   "fields": [
                     "cords_wood"
                   ],
@@ -2113,7 +2113,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector466",
+                    "selection": "selector041",
                     "value": 1
                   },
                   "value": 0
@@ -2152,7 +2152,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((datum.cords_wood * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((datum.cords_wood * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -2161,7 +2161,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector466",
+                    "selection": "selector041",
                     "type": "nominal"
                   },
                   "value": " "
@@ -2202,7 +2202,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((datum.cords_wood * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((datum.cords_wood * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -2259,7 +2259,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * datum.price_per_cord) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * datum.price_per_cord) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -2275,7 +2275,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector467": {
+                "selector042": {
                   "fields": [
                     "price_per_cord"
                   ],
@@ -2292,7 +2292,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector467",
+                    "selection": "selector042",
                     "value": 1
                   },
                   "value": 0
@@ -2331,7 +2331,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * datum.price_per_cord) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * datum.price_per_cord) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -2340,7 +2340,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector467",
+                    "selection": "selector042",
                     "type": "nominal"
                   },
                   "value": " "
@@ -2381,7 +2381,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * datum.price_per_cord) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * datum.price_per_cord) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -2438,7 +2438,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((datum.propane / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((datum.propane / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -2454,7 +2454,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector468": {
+                "selector043": {
                   "fields": [
                     "propane"
                   ],
@@ -2471,7 +2471,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector468",
+                    "selection": "selector043",
                     "value": 1
                   },
                   "value": 0
@@ -2510,7 +2510,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((datum.propane / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((datum.propane / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -2519,7 +2519,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector468",
+                    "selection": "selector043",
                     "type": "nominal"
                   },
                   "value": " "
@@ -2560,7 +2560,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((datum.propane / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((datum.propane / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -2617,7 +2617,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((datum.electric / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((datum.electric / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -2633,7 +2633,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector469": {
+                "selector044": {
                   "fields": [
                     "electric"
                   ],
@@ -2650,7 +2650,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector469",
+                    "selection": "selector044",
                     "value": 1
                   },
                   "value": 0
@@ -2689,7 +2689,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((datum.electric / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((datum.electric / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -2698,7 +2698,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector469",
+                    "selection": "selector044",
                     "type": "nominal"
                   },
                   "value": " "
@@ -2739,7 +2739,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((datum.electric / 12) / selector456.rooms[0])) + ((selector470.oil[0] / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((datum.electric / 12) / selector031.rooms[0])) + ((selector045.oil[0] / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
@@ -2796,7 +2796,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((datum.oil / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((datum.oil / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -2812,7 +2812,7 @@
               },
               "mark": "point",
               "selection": {
-                "selector470": {
+                "selector045": {
                   "fields": [
                     "oil"
                   ],
@@ -2829,7 +2829,7 @@
               "encoding": {
                 "opacity": {
                   "condition": {
-                    "selection": "selector470",
+                    "selection": "selector045",
                     "value": 1
                   },
                   "value": 0
@@ -2868,7 +2868,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((datum.oil / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((datum.oil / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 }
               ]
             },
@@ -2877,7 +2877,7 @@
                 "text": {
                   "condition": {
                     "field": "label",
-                    "selection": "selector470",
+                    "selection": "selector045",
                     "type": "nominal"
                   },
                   "value": " "
@@ -2918,7 +2918,7 @@
               "transform": [
                 {
                   "as": "monthly_cost",
-                  "calculate": "(((((((((((0 + (if((selector459.loan_duration[0] === 0),((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])),if(((selector458.interest_rate[0] / 12) === 0),(((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0]) / selector459.loan_duration[0]),(((selector458.interest_rate[0] / 12) * ((selector457.property_cost[0] + selector460.lawyer_fees[0]) - selector461.clt_value[0])) / (1 - pow((1 + (selector458.interest_rate[0] / 12)),(-selector459.loan_duration[0])))))) / selector456.rooms[0])) + if((selector461.clt_value[0] <= 0),0,(75 / selector456.rooms[0]))) + ((((selector463.assessed_value[0] * 2.32) / 100) / 12) / selector456.rooms[0])) + (((selector466.cords_wood[0] * selector467.price_per_cord[0]) / 12) / selector456.rooms[0])) + ((selector468.propane[0] / 12) / selector456.rooms[0])) + ((selector469.electric[0] / 12) / selector456.rooms[0])) + ((datum.oil / 12) / selector456.rooms[0])) + (99 / selector456.rooms[0])) + ((selector462.maintaince[0] / 12) / selector456.rooms[0])) + ((selector465.insurance[0] / 12) / selector456.rooms[0])) + (selector464.bookkeeping[0] / selector456.rooms[0]))"
+                  "calculate": "(((((((((((0 + (if((selector034.loan_duration[0] === 0),((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])),if(((selector033.interest_rate[0] / 12) === 0),(((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0]) / selector034.loan_duration[0]),(((selector033.interest_rate[0] / 12) * ((selector032.property_cost[0] + selector035.lawyer_fees[0]) - selector036.clt_value[0])) / (1 - pow((1 + (selector033.interest_rate[0] / 12)),(-selector034.loan_duration[0])))))) / selector031.rooms[0])) + if((selector036.clt_value[0] <= 0),0,(75 / selector031.rooms[0]))) + ((((selector038.assessed_value[0] * 2.32) / 100) / 12) / selector031.rooms[0])) + (((selector041.cords_wood[0] * selector042.price_per_cord[0]) / 12) / selector031.rooms[0])) + ((selector043.propane[0] / 12) / selector031.rooms[0])) + ((selector044.electric[0] / 12) / selector031.rooms[0])) + ((datum.oil / 12) / selector031.rooms[0])) + (99 / selector031.rooms[0])) + ((selector037.maintaince[0] / 12) / selector031.rooms[0])) + ((selector040.insurance[0] / 12) / selector031.rooms[0])) + (selector039.bookkeeping[0] / selector031.rooms[0]))"
                 },
                 {
                   "as": "label",
