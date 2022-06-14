@@ -182,7 +182,7 @@ def generate_plot(
         ),
     ]
     chart = alt.hconcat(*charts)
-    for selection in selections.values():
+    for selection in reversed(selections.values()):
         chart = chart.add_selection(selection)
     chart = (
         chart.properties(
