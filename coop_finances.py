@@ -143,8 +143,8 @@ def generate_plot(
             .transform_calculate(cost=monthly_cost)
             .mark_bar()
             .encode(
-                alt.X("scenario:O", sort=names),
-                alt.Y(
+                alt.Y("scenario:O", sort=names, axis=alt.Axis(title=None)),
+                alt.X(
                     "sum(cost):Q",
                     axis=alt.Axis(format="$.3s", title="Monthly Cost per Resident"),
                 ),
@@ -157,8 +157,8 @@ def generate_plot(
             .transform_calculate(number_people=number_people)
             .mark_bar()
             .encode(
-                alt.X("scenario:O", sort=names),
-                alt.Y(
+                alt.Y("scenario:O", sort=names, axis=alt.Axis(title=None)),
+                alt.X(
                     "sum(number_people):Q",
                     axis=alt.Axis(title="# Residents", tickMinStep=1),
                 ),
@@ -171,8 +171,8 @@ def generate_plot(
             .transform_calculate(upfront_cost=upfront_cost)
             .mark_bar()
             .encode(
-                alt.X("scenario:O", sort=names),
-                alt.Y(
+                alt.Y("scenario:O", sort=names, axis=alt.Axis(title=None)),
+                alt.X(
                     "sum(upfront_cost):Q",
                     axis=alt.Axis(format="$.3s", title="Required Investment"),
                 ),
@@ -181,7 +181,7 @@ def generate_plot(
             )
         ),
     ]
-    chart = alt.hconcat(*charts)
+    chart = alt.vconcat(*charts)
     for selection in reversed(selections.values()):
         chart = chart.add_selection(selection)
     chart = (
