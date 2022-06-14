@@ -148,7 +148,11 @@ def generate_plot(
                     "sum(cost):Q",
                     axis=alt.Axis(format="$.3s", title="Monthly Cost per Resident"),
                 ),
-                alt.Color("category:N"),
+                alt.Color(
+                    "category:N",
+                    scale=alt.Scale(scheme="teals"),
+                    legend=alt.Legend(title="Monthly costs"),
+                ),
                 alt.Tooltip(["category:N", "cost:Q"]),
             )
         ),
@@ -162,7 +166,11 @@ def generate_plot(
                     "sum(number_people):Q",
                     axis=alt.Axis(title="# Residents", tickMinStep=1),
                 ),
-                alt.Color("category:N"),
+                alt.Color(
+                    "category:N",
+                    scale=alt.Scale(scheme="purples"),
+                    legend=alt.Legend(title="Living spaces"),
+                ),
                 alt.Tooltip(["category:N", "number_people:Q"]),
             )
         ),
@@ -176,20 +184,24 @@ def generate_plot(
                     "sum(upfront_cost):Q",
                     axis=alt.Axis(format="$.3s", title="Required Investment"),
                 ),
-                alt.Color("category:N"),
+                alt.Color(
+                    "category:N",
+                    scale=alt.Scale(scheme="greens"),
+                    legend=alt.Legend(title="Funding needs"),
+                ),
                 alt.Tooltip(["category:N", "upfront_cost:Q"]),
             )
         ),
     ]
-    chart = alt.vconcat(*charts)
+    chart = alt.vconcat(*charts).resolve_scale(color="independent")
     for selection in reversed(selections.values()):
         chart = chart.add_selection(selection)
     chart = (
         chart.properties(
             title={
-                "text": f"👇 Drag the sliders to change 🏡 values ❣️",
+                "text": "Valley Housing Coop 38 Rush Road Cost Estimator",
                 "anchor": "start",
-                "fontSize": 40,
+                "fontSize": 30,
                 "subtitle": subtitle,
                 "align": "left",
             }
@@ -207,4 +219,5 @@ def generate_plot(
         )
     )
     pathlib.Path("simple.json").write_text(chart.to_json(validate=False))
+    chart.save("index.html")
     return chart
