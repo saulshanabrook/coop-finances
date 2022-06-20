@@ -17,274 +17,62 @@
     }
   },
   "datasets": {
-    "data-2747581c1e4548ac17c17b7029775db3": [
+    "data-06142f0048207f412b42fa39e183ba3e": [
       {
-        "category": "Lawyer Fees",
-        "scenario": "1. Purchase property"
+        "category": "Investors",
+        "scenario": "23 Pond St, Greenfield, MA"
       },
       {
-        "category": "Purchase",
-        "scenario": "1. Purchase property"
+        "category": "Land Trust",
+        "scenario": "23 Pond St, Greenfield, MA"
       },
       {
-        "category": "Nevin's Cabin - Labor",
-        "scenario": "1. Purchase property"
+        "category": "Property Tax",
+        "scenario": "23 Pond St, Greenfield, MA"
       },
       {
-        "category": "Nevin's Cabin - Materials",
-        "scenario": "1. Purchase property"
+        "category": "Propane",
+        "scenario": "23 Pond St, Greenfield, MA"
       },
       {
-        "category": "Storage Shed + Painting Studio",
-        "scenario": "1. Purchase property"
+        "category": "Electric",
+        "scenario": "23 Pond St, Greenfield, MA"
       },
       {
-        "category": "Lawyer Fees",
-        "scenario": "2. Renovate existing sheds"
+        "category": "Heating Oil",
+        "scenario": "23 Pond St, Greenfield, MA"
       },
       {
-        "category": "Purchase",
-        "scenario": "2. Renovate existing sheds"
+        "category": "Internet",
+        "scenario": "23 Pond St, Greenfield, MA"
       },
       {
-        "category": "Nevin's Cabin - Labor",
-        "scenario": "2. Renovate existing sheds"
+        "category": "Maintenance",
+        "scenario": "23 Pond St, Greenfield, MA"
       },
       {
-        "category": "Nevin's Cabin - Materials",
-        "scenario": "2. Renovate existing sheds"
+        "category": "Insurance",
+        "scenario": "23 Pond St, Greenfield, MA"
       },
       {
-        "category": "Storage Shed + Painting Studio",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Renovate Sheds",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Lawyer Fees",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Purchase",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Nevin's Cabin - Labor",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Nevin's Cabin - Materials",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Storage Shed + Painting Studio",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Renovate Sheds",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "House",
-        "scenario": "3. Build a house (remove mobile home)"
+        "category": "Bookkeeping",
+        "scenario": "23 Pond St, Greenfield, MA"
       }
     ],
-    "data-9bb39aadb8cad9cb3aad82363ad99de7": [
+    "data-805cb915a16447a3870b339a5f30b179": [
       {
-        "category": "Mobile Home",
-        "scenario": "1. Purchase property"
+        "category": "Closing costs + lawyer fees",
+        "scenario": "23 Pond St, Greenfield, MA"
       },
       {
-        "category": "Trailer",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Meditation Cabin",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Storage Shed + Painting Studio",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Mobile Home",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Trailer",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Meditation Cabin",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Storage Shed + Painting Studio",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Renovated Sheds",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Mobile Home",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Trailer",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Meditation Cabin",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Storage Shed + Painting Studio",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Renovated Sheds",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "House",
-        "scenario": "3. Build a house (remove mobile home)"
+        "category": "Property",
+        "scenario": "23 Pond St, Greenfield, MA"
       }
     ],
-    "data-a073f211e3b3ccd9f738b6adb08f8cd0": [
+    "data-d2a79cd6cfc5c1e5a4d88f8dc39fe344": [
       {
-        "category": "Investors",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Land Trust",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Property Tax",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Wood",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Propane",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Electric",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Heating Oil",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Internet",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Maintenance",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Insurance",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Bookkeeping",
-        "scenario": "1. Purchase property"
-      },
-      {
-        "category": "Investors",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Land Trust",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Property Tax",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Wood",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Propane",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Electric",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Heating Oil",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Internet",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Maintenance",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Insurance",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Bookkeeping",
-        "scenario": "2. Renovate existing sheds"
-      },
-      {
-        "category": "Investors",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Land Trust",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Property Tax",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Wood",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Propane",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Electric",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Heating Oil",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Internet",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Maintenance",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Insurance",
-        "scenario": "3. Build a house (remove mobile home)"
-      },
-      {
-        "category": "Bookkeeping",
-        "scenario": "3. Build a house (remove mobile home)"
+        "category": "Number of residents",
+        "scenario": "23 Pond St, Greenfield, MA"
       }
     ]
   },
@@ -306,7 +94,7 @@
   "vconcat": [
     {
       "data": {
-        "name": "data-a073f211e3b3ccd9f738b6adb08f8cd0"
+        "name": "data-06142f0048207f412b42fa39e183ba3e"
       },
       "encoding": {
         "color": {
@@ -344,236 +132,30 @@
           },
           "field": "scenario",
           "sort": [
-            "1. Purchase property",
-            "2. Renovate existing sheds",
-            "3. Build a house (remove mobile home)"
+            "23 Pond St, Greenfield, MA"
           ],
           "type": "ordinal"
         }
       },
       "mark": "bar",
       "selection": {
-        "selector001": {
-          "bind": {
-            "input": "range",
-            "max": 4,
-            "min": 1,
-            "name": "\ud83d\ude8c # of ppl in mobile home",
-            "step": 1
-          },
-          "fields": [
-            "mobile_home"
-          ],
-          "init": {
-            "mobile_home": 2
-          },
-          "type": "single"
-        },
-        "selector002": {
-          "bind": {
-            "input": "range",
-            "max": 4,
-            "min": 0,
-            "name": "\ud83c\udfac # of ppl in studio",
-            "step": 1
-          },
-          "fields": [
-            "trailer"
-          ],
-          "init": {
-            "trailer": 1
-          },
-          "type": "single"
-        },
-        "selector003": {
-          "bind": {
-            "input": "radio",
-            "labels": [
-              "Nevin's Cabin",
-              "No meditation cabin"
-            ],
-            "name": "\ud83e\uddd8 Meditation Cabin",
-            "options": [
-              true,
-              false
-            ]
-          },
-          "fields": [
-            "nevins_cabin"
-          ],
-          "init": {
-            "nevins_cabin": true
-          },
-          "type": "single"
-        },
-        "selector004": {
-          "bind": {
-            "input": "radio",
-            "labels": [
-              "Shipping container before sale",
-              "Build before sale",
-              "None"
-            ],
-            "name": "\ud83e\uded9 Storage Shed + Painting Studio",
-            "options": [
-              "shipping",
-              "build",
-              0
-            ]
-          },
-          "fields": [
-            "storage_shed"
-          ],
-          "init": {
-            "storage_shed": 0
-          },
-          "type": "single"
-        },
-        "selector005": {
-          "bind": {
-            "input": "range",
-            "max": 3,
-            "min": 0,
-            "name": "\ud83e\uded9 # of ppl in Storage Shed + Painting Studio",
-            "step": 1
-          },
-          "fields": [
-            "storage_shed_people"
-          ],
-          "init": {
-            "storage_shed_people": 2
-          },
-          "type": "single"
-        },
-        "selector006": {
-          "bind": {
-            "input": "range",
-            "max": 1500,
-            "min": 500,
-            "name": "\ud83e\uded9 Storage Shed + Painting Studio sq Ft",
-            "step": 250
-          },
-          "fields": [
-            "storage_shed_sq_ft"
-          ],
-          "init": {
-            "storage_shed_sq_ft": 1000
-          },
-          "type": "single"
-        },
-        "selector007": {
-          "bind": {
-            "input": "range",
-            "max": 10000,
-            "min": 2000,
-            "name": "\ud83d\udea2 Shipping Container Cost",
-            "step": 1000
-          },
-          "fields": [
-            "shipping_container"
-          ],
-          "init": {
-            "shipping_container": 7000
-          },
-          "type": "single"
-        },
-        "selector008": {
-          "bind": {
-            "input": "range",
-            "max": 1,
-            "min": 0,
-            "name": "\ud83d\udea2 # of ppl in Shipping Container",
-            "step": 1
-          },
-          "fields": [
-            "shipping_container_ppl"
-          ],
-          "init": {
-            "shipping_container_ppl": 0
-          },
-          "type": "single"
-        },
-        "selector009": {
-          "bind": {
-            "input": "range",
-            "max": 3,
-            "min": 0,
-            "name": "\ud83d\uded6 # of ppl in renovated sheds",
-            "step": 1
-          },
-          "fields": [
-            "shed_people"
-          ],
-          "init": {
-            "shed_people": 2
-          },
-          "type": "single"
-        },
-        "selector010": {
-          "bind": {
-            "input": "range",
-            "max": 750,
-            "min": 250,
-            "name": "\ud83d\uded6 Renovated sheds sq Ft",
-            "step": 250
-          },
-          "fields": [
-            "shed_sq_ft"
-          ],
-          "init": {
-            "shed_sq_ft": 500
-          },
-          "type": "single"
-        },
         "selector011": {
           "bind": {
             "input": "range",
-            "max": 5,
-            "min": 0,
-            "name": "\ud83c\udfe0 # of ppl in house",
+            "max": 6,
+            "min": 1,
+            "name": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 # of ppl in house",
             "step": 1
           },
           "fields": [
-            "house"
+            "residents"
           ],
           "init": {
-            "house": 3
+            "residents": 4
           },
           "type": "single"
         },
         "selector012": {
-          "bind": {
-            "input": "range",
-            "max": 2500,
-            "min": 1000,
-            "name": "\ud83c\udfe0 House sq ft",
-            "step": 250
-          },
-          "fields": [
-            "house_size"
-          ],
-          "init": {
-            "house_size": 2000
-          },
-          "type": "single"
-        },
-        "selector013": {
-          "bind": {
-            "input": "range",
-            "max": 400,
-            "min": 100,
-            "name": "\ud83d\udc63 Construction cost / sq ft",
-            "step": 50
-          },
-          "fields": [
-            "per_sq_ft"
-          ],
-          "init": {
-            "per_sq_ft": 150
-          },
-          "type": "single"
-        },
-        "selector014": {
           "bind": {
             "input": "range",
             "max": 0.1,
@@ -589,7 +171,7 @@
           },
           "type": "single"
         },
-        "selector015": {
+        "selector013": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -616,23 +198,7 @@
           },
           "type": "single"
         },
-        "selector016": {
-          "bind": {
-            "input": "range",
-            "max": 300000,
-            "min": 110000,
-            "name": "\ud83e\udd11 Purchase price",
-            "step": 10000
-          },
-          "fields": [
-            "property_cost"
-          ],
-          "init": {
-            "property_cost": 150000
-          },
-          "type": "single"
-        },
-        "selector017": {
+        "selector014": {
           "bind": {
             "input": "range",
             "max": 20000,
@@ -644,27 +210,11 @@
             "lawyer_fees"
           ],
           "init": {
-            "lawyer_fees": 10000
+            "lawyer_fees": 5000
           },
           "type": "single"
         },
-        "selector018": {
-          "bind": {
-            "input": "range",
-            "max": 150000,
-            "min": 0,
-            "name": "\ud83c\udfde Land value owned by CLT",
-            "step": 10000
-          },
-          "fields": [
-            "clt_value"
-          ],
-          "init": {
-            "clt_value": 0
-          },
-          "type": "single"
-        },
-        "selector019": {
+        "selector015": {
           "bind": {
             "input": "range",
             "max": 0.05,
@@ -680,23 +230,7 @@
           },
           "type": "single"
         },
-        "selector020": {
-          "bind": {
-            "input": "range",
-            "max": 300000,
-            "min": 110000,
-            "name": "\ud83c\uddfa\ud83c\uddf8 Assessed Value (for property taxes)",
-            "step": 5000
-          },
-          "fields": [
-            "assessed_value"
-          ],
-          "init": {
-            "assessed_value": 130000
-          },
-          "type": "single"
-        },
-        "selector021": {
+        "selector016": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -719,7 +253,7 @@
           },
           "type": "single"
         },
-        "selector022": {
+        "selector017": {
           "bind": {
             "input": "range",
             "max": 800,
@@ -735,39 +269,7 @@
           },
           "type": "single"
         },
-        "selector023": {
-          "bind": {
-            "input": "range",
-            "max": 5,
-            "min": 0,
-            "name": "\ud83e\udeb5 Cords of wood per year",
-            "step": 1
-          },
-          "fields": [
-            "cords_wood"
-          ],
-          "init": {
-            "cords_wood": 3
-          },
-          "type": "single"
-        },
-        "selector024": {
-          "bind": {
-            "input": "range",
-            "max": 580,
-            "min": 0,
-            "name": "\ud83d\udd25 Price per cord wood",
-            "step": 10
-          },
-          "fields": [
-            "price_per_cord"
-          ],
-          "init": {
-            "price_per_cord": 190
-          },
-          "type": "single"
-        },
-        "selector025": {
+        "selector018": {
           "bind": {
             "input": "range",
             "max": 2270,
@@ -783,7 +285,7 @@
           },
           "type": "single"
         },
-        "selector026": {
+        "selector019": {
           "bind": {
             "input": "range",
             "max": 3196,
@@ -799,7 +301,7 @@
           },
           "type": "single"
         },
-        "selector027": {
+        "selector020": {
           "bind": {
             "input": "range",
             "max": 750,
@@ -819,13 +321,13 @@
       "transform": [
         {
           "as": "cost",
-          "calculate": "if(((datum.category === 'Bookkeeping') && (datum.scenario === '3. Build a house (remove mobile home)')),(selector021.bookkeeping[0] / (((((0 + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0]) + selector011.house[0])),if(((datum.category === 'Insurance') && (datum.scenario === '3. Build a house (remove mobile home)')),((selector022.insurance[0] / 12) / (((((0 + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0]) + selector011.house[0])),if(((datum.category === 'Maintenance') && (datum.scenario === '3. Build a house (remove mobile home)')),(((selector019.maintaince[0] * ((((17500 + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0))) + (selector010.shed_sq_ft[0] * selector013.per_sq_ft[0])) + (selector012.house_size[0] * selector013.per_sq_ft[0])) + 80000)) / 12) / (((((0 + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0]) + selector011.house[0])),if(((datum.category === 'Internet') && (datum.scenario === '3. Build a house (remove mobile home)')),(99 / (((((0 + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0]) + selector011.house[0])),if(((datum.category === 'Heating Oil') && (datum.scenario === '3. Build a house (remove mobile home)')),((selector027.oil[0] / 12) / (((((0 + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0]) + selector011.house[0])),if(((datum.category === 'Electric') && (datum.scenario === '3. Build a house (remove mobile home)')),((selector026.electric[0] / 12) / (((((0 + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0]) + selector011.house[0])),if(((datum.category === 'Propane') && (datum.scenario === '3. Build a house (remove mobile home)')),((selector025.propane[0] / 12) / (((((0 + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0]) + selector011.house[0])),if(((datum.category === 'Wood') && (datum.scenario === '3. Build a house (remove mobile home)')),(((selector023.cords_wood[0] * selector024.price_per_cord[0]) / 12) / (((((0 + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0]) + selector011.house[0])),if(((datum.category === 'Property Tax') && (datum.scenario === '3. Build a house (remove mobile home)')),((((selector020.assessed_value[0] * 2.32) / 100) / 12) / (((((0 + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0]) + selector011.house[0])),if(((datum.category === 'Land Trust') && (datum.scenario === '3. Build a house (remove mobile home)')),(if((selector018.clt_value[0] <= 0),0,75) / (((((0 + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0]) + selector011.house[0])),if(((datum.category === 'Investors') && (datum.scenario === '3. Build a house (remove mobile home)')),(if((selector015.loan_duration[0] === 0),((selector014.interest_rate[0] / 12) * (((((((0 + selector017.lawyer_fees[0]) + (selector016.property_cost[0] - selector018.clt_value[0])) + 12500) + 5000) + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0))) + (selector010.shed_sq_ft[0] * selector013.per_sq_ft[0])) + (selector012.house_size[0] * selector013.per_sq_ft[0]))),if(((selector014.interest_rate[0] / 12) === 0),((((((((0 + selector017.lawyer_fees[0]) + (selector016.property_cost[0] - selector018.clt_value[0])) + 12500) + 5000) + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0))) + (selector010.shed_sq_ft[0] * selector013.per_sq_ft[0])) + (selector012.house_size[0] * selector013.per_sq_ft[0])) / selector015.loan_duration[0]),(((selector014.interest_rate[0] / 12) * (((((((0 + selector017.lawyer_fees[0]) + (selector016.property_cost[0] - selector018.clt_value[0])) + 12500) + 5000) + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0))) + (selector010.shed_sq_ft[0] * selector013.per_sq_ft[0])) + (selector012.house_size[0] * selector013.per_sq_ft[0]))) / (1 - pow((1 + (selector014.interest_rate[0] / 12)),(-selector015.loan_duration[0])))))) / (((((0 + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0]) + selector011.house[0])),if(((datum.category === 'Bookkeeping') && (datum.scenario === '2. Renovate existing sheds')),(selector021.bookkeeping[0] / (((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0])),if(((datum.category === 'Insurance') && (datum.scenario === '2. Renovate existing sheds')),((selector022.insurance[0] / 12) / (((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0])),if(((datum.category === 'Maintenance') && (datum.scenario === '2. Renovate existing sheds')),(((selector019.maintaince[0] * (((17500 + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0))) + (selector010.shed_sq_ft[0] * selector013.per_sq_ft[0])) + 80000)) / 12) / (((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0])),if(((datum.category === 'Internet') && (datum.scenario === '2. Renovate existing sheds')),(99 / (((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0])),if(((datum.category === 'Heating Oil') && (datum.scenario === '2. Renovate existing sheds')),((selector027.oil[0] / 12) / (((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0])),if(((datum.category === 'Electric') && (datum.scenario === '2. Renovate existing sheds')),((selector026.electric[0] / 12) / (((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0])),if(((datum.category === 'Propane') && (datum.scenario === '2. Renovate existing sheds')),((selector025.propane[0] / 12) / (((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0])),if(((datum.category === 'Wood') && (datum.scenario === '2. Renovate existing sheds')),(((selector023.cords_wood[0] * selector024.price_per_cord[0]) / 12) / (((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0])),if(((datum.category === 'Property Tax') && (datum.scenario === '2. Renovate existing sheds')),((((selector020.assessed_value[0] * 2.32) / 100) / 12) / (((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0])),if(((datum.category === 'Land Trust') && (datum.scenario === '2. Renovate existing sheds')),(if((selector018.clt_value[0] <= 0),0,75) / (((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0])),if(((datum.category === 'Investors') && (datum.scenario === '2. Renovate existing sheds')),(if((selector015.loan_duration[0] === 0),((selector014.interest_rate[0] / 12) * ((((((0 + selector017.lawyer_fees[0]) + (selector016.property_cost[0] - selector018.clt_value[0])) + 12500) + 5000) + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0))) + (selector010.shed_sq_ft[0] * selector013.per_sq_ft[0]))),if(((selector014.interest_rate[0] / 12) === 0),(((((((0 + selector017.lawyer_fees[0]) + (selector016.property_cost[0] - selector018.clt_value[0])) + 12500) + 5000) + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0))) + (selector010.shed_sq_ft[0] * selector013.per_sq_ft[0])) / selector015.loan_duration[0]),(((selector014.interest_rate[0] / 12) * ((((((0 + selector017.lawyer_fees[0]) + (selector016.property_cost[0] - selector018.clt_value[0])) + 12500) + 5000) + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0))) + (selector010.shed_sq_ft[0] * selector013.per_sq_ft[0]))) / (1 - pow((1 + (selector014.interest_rate[0] / 12)),(-selector015.loan_duration[0])))))) / (((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0))) + selector009.shed_people[0])),if(((datum.category === 'Bookkeeping') && (datum.scenario === '1. Purchase property')),(selector021.bookkeeping[0] / ((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)))),if(((datum.category === 'Insurance') && (datum.scenario === '1. Purchase property')),((selector022.insurance[0] / 12) / ((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)))),if(((datum.category === 'Maintenance') && (datum.scenario === '1. Purchase property')),(((selector019.maintaince[0] * ((17500 + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0))) + 80000)) / 12) / ((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)))),if(((datum.category === 'Internet') && (datum.scenario === '1. Purchase property')),(99 / ((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)))),if(((datum.category === 'Heating Oil') && (datum.scenario === '1. Purchase property')),((selector027.oil[0] / 12) / ((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)))),if(((datum.category === 'Electric') && (datum.scenario === '1. Purchase property')),((selector026.electric[0] / 12) / ((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)))),if(((datum.category === 'Propane') && (datum.scenario === '1. Purchase property')),((selector025.propane[0] / 12) / ((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)))),if(((datum.category === 'Wood') && (datum.scenario === '1. Purchase property')),(((selector023.cords_wood[0] * selector024.price_per_cord[0]) / 12) / ((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)))),if(((datum.category === 'Property Tax') && (datum.scenario === '1. Purchase property')),((((selector020.assessed_value[0] * 2.32) / 100) / 12) / ((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)))),if(((datum.category === 'Land Trust') && (datum.scenario === '1. Purchase property')),(if((selector018.clt_value[0] <= 0),0,75) / ((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)))),if(((datum.category === 'Investors') && (datum.scenario === '1. Purchase property')),(if((selector015.loan_duration[0] === 0),((selector014.interest_rate[0] / 12) * (((((0 + selector017.lawyer_fees[0]) + (selector016.property_cost[0] - selector018.clt_value[0])) + 12500) + 5000) + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0)))),if(((selector014.interest_rate[0] / 12) === 0),((((((0 + selector017.lawyer_fees[0]) + (selector016.property_cost[0] - selector018.clt_value[0])) + 12500) + 5000) + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0))) / selector015.loan_duration[0]),(((selector014.interest_rate[0] / 12) * (((((0 + selector017.lawyer_fees[0]) + (selector016.property_cost[0] - selector018.clt_value[0])) + 12500) + 5000) + if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0)))) / (1 - pow((1 + (selector014.interest_rate[0] / 12)),(-selector015.loan_duration[0])))))) / ((((0 + selector001.mobile_home[0]) + selector002.trailer[0]) + if(selector003.nevins_cabin[0],1,0)) + if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)))),null)))))))))))))))))))))))))))))))))"
+          "calculate": "if(((datum.category === 'Bookkeeping') && (datum.scenario === '23 Pond St, Greenfield, MA')),(selector016.bookkeeping[0] / (0 + selector011.residents[0])),if(((datum.category === 'Insurance') && (datum.scenario === '23 Pond St, Greenfield, MA')),((selector017.insurance[0] / 12) / (0 + selector011.residents[0])),if(((datum.category === 'Maintenance') && (datum.scenario === '23 Pond St, Greenfield, MA')),((((selector015.maintaince[0] * 95) * 1000) / 12) / (0 + selector011.residents[0])),if(((datum.category === 'Internet') && (datum.scenario === '23 Pond St, Greenfield, MA')),(60 / (0 + selector011.residents[0])),if(((datum.category === 'Heating Oil') && (datum.scenario === '23 Pond St, Greenfield, MA')),((selector020.oil[0] / 12) / (0 + selector011.residents[0])),if(((datum.category === 'Electric') && (datum.scenario === '23 Pond St, Greenfield, MA')),((selector019.electric[0] / 12) / (0 + selector011.residents[0])),if(((datum.category === 'Propane') && (datum.scenario === '23 Pond St, Greenfield, MA')),((selector018.propane[0] / 12) / (0 + selector011.residents[0])),if(((datum.category === 'Property Tax') && (datum.scenario === '23 Pond St, Greenfield, MA')),(259.8333333333333 / (0 + selector011.residents[0])),if(((datum.category === 'Land Trust') && (datum.scenario === '23 Pond St, Greenfield, MA')),(70 / (0 + selector011.residents[0])),if(((datum.category === 'Investors') && (datum.scenario === '23 Pond St, Greenfield, MA')),(if((selector013.loan_duration[0] === 0),((selector012.interest_rate[0] / 12) * (95000 + selector014.lawyer_fees[0])),if(((selector012.interest_rate[0] / 12) === 0),((95000 + selector014.lawyer_fees[0]) / selector013.loan_duration[0]),(((selector012.interest_rate[0] / 12) * (95000 + selector014.lawyer_fees[0])) / (1 - pow((1 + (selector012.interest_rate[0] / 12)),(-selector013.loan_duration[0])))))) / (0 + selector011.residents[0])),null))))))))))"
         }
       ]
     },
     {
       "data": {
-        "name": "data-9bb39aadb8cad9cb3aad82363ad99de7"
+        "name": "data-d2a79cd6cfc5c1e5a4d88f8dc39fe344"
       },
       "encoding": {
         "color": {
@@ -863,236 +365,30 @@
           },
           "field": "scenario",
           "sort": [
-            "1. Purchase property",
-            "2. Renovate existing sheds",
-            "3. Build a house (remove mobile home)"
+            "23 Pond St, Greenfield, MA"
           ],
           "type": "ordinal"
         }
       },
       "mark": "bar",
       "selection": {
-        "selector001": {
-          "bind": {
-            "input": "range",
-            "max": 4,
-            "min": 1,
-            "name": "\ud83d\ude8c # of ppl in mobile home",
-            "step": 1
-          },
-          "fields": [
-            "mobile_home"
-          ],
-          "init": {
-            "mobile_home": 2
-          },
-          "type": "single"
-        },
-        "selector002": {
-          "bind": {
-            "input": "range",
-            "max": 4,
-            "min": 0,
-            "name": "\ud83c\udfac # of ppl in studio",
-            "step": 1
-          },
-          "fields": [
-            "trailer"
-          ],
-          "init": {
-            "trailer": 1
-          },
-          "type": "single"
-        },
-        "selector003": {
-          "bind": {
-            "input": "radio",
-            "labels": [
-              "Nevin's Cabin",
-              "No meditation cabin"
-            ],
-            "name": "\ud83e\uddd8 Meditation Cabin",
-            "options": [
-              true,
-              false
-            ]
-          },
-          "fields": [
-            "nevins_cabin"
-          ],
-          "init": {
-            "nevins_cabin": true
-          },
-          "type": "single"
-        },
-        "selector004": {
-          "bind": {
-            "input": "radio",
-            "labels": [
-              "Shipping container before sale",
-              "Build before sale",
-              "None"
-            ],
-            "name": "\ud83e\uded9 Storage Shed + Painting Studio",
-            "options": [
-              "shipping",
-              "build",
-              0
-            ]
-          },
-          "fields": [
-            "storage_shed"
-          ],
-          "init": {
-            "storage_shed": 0
-          },
-          "type": "single"
-        },
-        "selector005": {
-          "bind": {
-            "input": "range",
-            "max": 3,
-            "min": 0,
-            "name": "\ud83e\uded9 # of ppl in Storage Shed + Painting Studio",
-            "step": 1
-          },
-          "fields": [
-            "storage_shed_people"
-          ],
-          "init": {
-            "storage_shed_people": 2
-          },
-          "type": "single"
-        },
-        "selector006": {
-          "bind": {
-            "input": "range",
-            "max": 1500,
-            "min": 500,
-            "name": "\ud83e\uded9 Storage Shed + Painting Studio sq Ft",
-            "step": 250
-          },
-          "fields": [
-            "storage_shed_sq_ft"
-          ],
-          "init": {
-            "storage_shed_sq_ft": 1000
-          },
-          "type": "single"
-        },
-        "selector007": {
-          "bind": {
-            "input": "range",
-            "max": 10000,
-            "min": 2000,
-            "name": "\ud83d\udea2 Shipping Container Cost",
-            "step": 1000
-          },
-          "fields": [
-            "shipping_container"
-          ],
-          "init": {
-            "shipping_container": 7000
-          },
-          "type": "single"
-        },
-        "selector008": {
-          "bind": {
-            "input": "range",
-            "max": 1,
-            "min": 0,
-            "name": "\ud83d\udea2 # of ppl in Shipping Container",
-            "step": 1
-          },
-          "fields": [
-            "shipping_container_ppl"
-          ],
-          "init": {
-            "shipping_container_ppl": 0
-          },
-          "type": "single"
-        },
-        "selector009": {
-          "bind": {
-            "input": "range",
-            "max": 3,
-            "min": 0,
-            "name": "\ud83d\uded6 # of ppl in renovated sheds",
-            "step": 1
-          },
-          "fields": [
-            "shed_people"
-          ],
-          "init": {
-            "shed_people": 2
-          },
-          "type": "single"
-        },
-        "selector010": {
-          "bind": {
-            "input": "range",
-            "max": 750,
-            "min": 250,
-            "name": "\ud83d\uded6 Renovated sheds sq Ft",
-            "step": 250
-          },
-          "fields": [
-            "shed_sq_ft"
-          ],
-          "init": {
-            "shed_sq_ft": 500
-          },
-          "type": "single"
-        },
         "selector011": {
           "bind": {
             "input": "range",
-            "max": 5,
-            "min": 0,
-            "name": "\ud83c\udfe0 # of ppl in house",
+            "max": 6,
+            "min": 1,
+            "name": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 # of ppl in house",
             "step": 1
           },
           "fields": [
-            "house"
+            "residents"
           ],
           "init": {
-            "house": 3
+            "residents": 4
           },
           "type": "single"
         },
         "selector012": {
-          "bind": {
-            "input": "range",
-            "max": 2500,
-            "min": 1000,
-            "name": "\ud83c\udfe0 House sq ft",
-            "step": 250
-          },
-          "fields": [
-            "house_size"
-          ],
-          "init": {
-            "house_size": 2000
-          },
-          "type": "single"
-        },
-        "selector013": {
-          "bind": {
-            "input": "range",
-            "max": 400,
-            "min": 100,
-            "name": "\ud83d\udc63 Construction cost / sq ft",
-            "step": 50
-          },
-          "fields": [
-            "per_sq_ft"
-          ],
-          "init": {
-            "per_sq_ft": 150
-          },
-          "type": "single"
-        },
-        "selector014": {
           "bind": {
             "input": "range",
             "max": 0.1,
@@ -1108,7 +404,7 @@
           },
           "type": "single"
         },
-        "selector015": {
+        "selector013": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -1135,23 +431,7 @@
           },
           "type": "single"
         },
-        "selector016": {
-          "bind": {
-            "input": "range",
-            "max": 300000,
-            "min": 110000,
-            "name": "\ud83e\udd11 Purchase price",
-            "step": 10000
-          },
-          "fields": [
-            "property_cost"
-          ],
-          "init": {
-            "property_cost": 150000
-          },
-          "type": "single"
-        },
-        "selector017": {
+        "selector014": {
           "bind": {
             "input": "range",
             "max": 20000,
@@ -1163,27 +443,11 @@
             "lawyer_fees"
           ],
           "init": {
-            "lawyer_fees": 10000
+            "lawyer_fees": 5000
           },
           "type": "single"
         },
-        "selector018": {
-          "bind": {
-            "input": "range",
-            "max": 150000,
-            "min": 0,
-            "name": "\ud83c\udfde Land value owned by CLT",
-            "step": 10000
-          },
-          "fields": [
-            "clt_value"
-          ],
-          "init": {
-            "clt_value": 0
-          },
-          "type": "single"
-        },
-        "selector019": {
+        "selector015": {
           "bind": {
             "input": "range",
             "max": 0.05,
@@ -1199,23 +463,7 @@
           },
           "type": "single"
         },
-        "selector020": {
-          "bind": {
-            "input": "range",
-            "max": 300000,
-            "min": 110000,
-            "name": "\ud83c\uddfa\ud83c\uddf8 Assessed Value (for property taxes)",
-            "step": 5000
-          },
-          "fields": [
-            "assessed_value"
-          ],
-          "init": {
-            "assessed_value": 130000
-          },
-          "type": "single"
-        },
-        "selector021": {
+        "selector016": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -1238,7 +486,7 @@
           },
           "type": "single"
         },
-        "selector022": {
+        "selector017": {
           "bind": {
             "input": "range",
             "max": 800,
@@ -1254,39 +502,7 @@
           },
           "type": "single"
         },
-        "selector023": {
-          "bind": {
-            "input": "range",
-            "max": 5,
-            "min": 0,
-            "name": "\ud83e\udeb5 Cords of wood per year",
-            "step": 1
-          },
-          "fields": [
-            "cords_wood"
-          ],
-          "init": {
-            "cords_wood": 3
-          },
-          "type": "single"
-        },
-        "selector024": {
-          "bind": {
-            "input": "range",
-            "max": 580,
-            "min": 0,
-            "name": "\ud83d\udd25 Price per cord wood",
-            "step": 10
-          },
-          "fields": [
-            "price_per_cord"
-          ],
-          "init": {
-            "price_per_cord": 190
-          },
-          "type": "single"
-        },
-        "selector025": {
+        "selector018": {
           "bind": {
             "input": "range",
             "max": 2270,
@@ -1302,7 +518,7 @@
           },
           "type": "single"
         },
-        "selector026": {
+        "selector019": {
           "bind": {
             "input": "range",
             "max": 3196,
@@ -1318,7 +534,7 @@
           },
           "type": "single"
         },
-        "selector027": {
+        "selector020": {
           "bind": {
             "input": "range",
             "max": 750,
@@ -1338,13 +554,13 @@
       "transform": [
         {
           "as": "number_people",
-          "calculate": "if(((datum.category === 'House') && (datum.scenario === '3. Build a house (remove mobile home)')),selector011.house[0],if(((datum.category === 'Renovated Sheds') && (datum.scenario === '3. Build a house (remove mobile home)')),selector009.shed_people[0],if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === '3. Build a house (remove mobile home)')),if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)),if(((datum.category === 'Meditation Cabin') && (datum.scenario === '3. Build a house (remove mobile home)')),if(selector003.nevins_cabin[0],1,0),if(((datum.category === 'Trailer') && (datum.scenario === '3. Build a house (remove mobile home)')),selector002.trailer[0],if(((datum.category === 'Mobile Home') && (datum.scenario === '3. Build a house (remove mobile home)')),0,if(((datum.category === 'Renovated Sheds') && (datum.scenario === '2. Renovate existing sheds')),selector009.shed_people[0],if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === '2. Renovate existing sheds')),if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)),if(((datum.category === 'Meditation Cabin') && (datum.scenario === '2. Renovate existing sheds')),if(selector003.nevins_cabin[0],1,0),if(((datum.category === 'Trailer') && (datum.scenario === '2. Renovate existing sheds')),selector002.trailer[0],if(((datum.category === 'Mobile Home') && (datum.scenario === '2. Renovate existing sheds')),selector001.mobile_home[0],if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === '1. Purchase property')),if((selector004.storage_shed[0] === 'shipping'),selector008.shipping_container_ppl[0],if((selector004.storage_shed[0] === 'build'),selector005.storage_shed_people[0],0)),if(((datum.category === 'Meditation Cabin') && (datum.scenario === '1. Purchase property')),if(selector003.nevins_cabin[0],1,0),if(((datum.category === 'Trailer') && (datum.scenario === '1. Purchase property')),selector002.trailer[0],if(((datum.category === 'Mobile Home') && (datum.scenario === '1. Purchase property')),selector001.mobile_home[0],null)))))))))))))))"
+          "calculate": "if(((datum.category === 'Number of residents') && (datum.scenario === '23 Pond St, Greenfield, MA')),selector011.residents[0],null)"
         }
       ]
     },
     {
       "data": {
-        "name": "data-2747581c1e4548ac17c17b7029775db3"
+        "name": "data-805cb915a16447a3870b339a5f30b179"
       },
       "encoding": {
         "color": {
@@ -1382,236 +598,30 @@
           },
           "field": "scenario",
           "sort": [
-            "1. Purchase property",
-            "2. Renovate existing sheds",
-            "3. Build a house (remove mobile home)"
+            "23 Pond St, Greenfield, MA"
           ],
           "type": "ordinal"
         }
       },
       "mark": "bar",
       "selection": {
-        "selector001": {
-          "bind": {
-            "input": "range",
-            "max": 4,
-            "min": 1,
-            "name": "\ud83d\ude8c # of ppl in mobile home",
-            "step": 1
-          },
-          "fields": [
-            "mobile_home"
-          ],
-          "init": {
-            "mobile_home": 2
-          },
-          "type": "single"
-        },
-        "selector002": {
-          "bind": {
-            "input": "range",
-            "max": 4,
-            "min": 0,
-            "name": "\ud83c\udfac # of ppl in studio",
-            "step": 1
-          },
-          "fields": [
-            "trailer"
-          ],
-          "init": {
-            "trailer": 1
-          },
-          "type": "single"
-        },
-        "selector003": {
-          "bind": {
-            "input": "radio",
-            "labels": [
-              "Nevin's Cabin",
-              "No meditation cabin"
-            ],
-            "name": "\ud83e\uddd8 Meditation Cabin",
-            "options": [
-              true,
-              false
-            ]
-          },
-          "fields": [
-            "nevins_cabin"
-          ],
-          "init": {
-            "nevins_cabin": true
-          },
-          "type": "single"
-        },
-        "selector004": {
-          "bind": {
-            "input": "radio",
-            "labels": [
-              "Shipping container before sale",
-              "Build before sale",
-              "None"
-            ],
-            "name": "\ud83e\uded9 Storage Shed + Painting Studio",
-            "options": [
-              "shipping",
-              "build",
-              0
-            ]
-          },
-          "fields": [
-            "storage_shed"
-          ],
-          "init": {
-            "storage_shed": 0
-          },
-          "type": "single"
-        },
-        "selector005": {
-          "bind": {
-            "input": "range",
-            "max": 3,
-            "min": 0,
-            "name": "\ud83e\uded9 # of ppl in Storage Shed + Painting Studio",
-            "step": 1
-          },
-          "fields": [
-            "storage_shed_people"
-          ],
-          "init": {
-            "storage_shed_people": 2
-          },
-          "type": "single"
-        },
-        "selector006": {
-          "bind": {
-            "input": "range",
-            "max": 1500,
-            "min": 500,
-            "name": "\ud83e\uded9 Storage Shed + Painting Studio sq Ft",
-            "step": 250
-          },
-          "fields": [
-            "storage_shed_sq_ft"
-          ],
-          "init": {
-            "storage_shed_sq_ft": 1000
-          },
-          "type": "single"
-        },
-        "selector007": {
-          "bind": {
-            "input": "range",
-            "max": 10000,
-            "min": 2000,
-            "name": "\ud83d\udea2 Shipping Container Cost",
-            "step": 1000
-          },
-          "fields": [
-            "shipping_container"
-          ],
-          "init": {
-            "shipping_container": 7000
-          },
-          "type": "single"
-        },
-        "selector008": {
-          "bind": {
-            "input": "range",
-            "max": 1,
-            "min": 0,
-            "name": "\ud83d\udea2 # of ppl in Shipping Container",
-            "step": 1
-          },
-          "fields": [
-            "shipping_container_ppl"
-          ],
-          "init": {
-            "shipping_container_ppl": 0
-          },
-          "type": "single"
-        },
-        "selector009": {
-          "bind": {
-            "input": "range",
-            "max": 3,
-            "min": 0,
-            "name": "\ud83d\uded6 # of ppl in renovated sheds",
-            "step": 1
-          },
-          "fields": [
-            "shed_people"
-          ],
-          "init": {
-            "shed_people": 2
-          },
-          "type": "single"
-        },
-        "selector010": {
-          "bind": {
-            "input": "range",
-            "max": 750,
-            "min": 250,
-            "name": "\ud83d\uded6 Renovated sheds sq Ft",
-            "step": 250
-          },
-          "fields": [
-            "shed_sq_ft"
-          ],
-          "init": {
-            "shed_sq_ft": 500
-          },
-          "type": "single"
-        },
         "selector011": {
           "bind": {
             "input": "range",
-            "max": 5,
-            "min": 0,
-            "name": "\ud83c\udfe0 # of ppl in house",
+            "max": 6,
+            "min": 1,
+            "name": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 # of ppl in house",
             "step": 1
           },
           "fields": [
-            "house"
+            "residents"
           ],
           "init": {
-            "house": 3
+            "residents": 4
           },
           "type": "single"
         },
         "selector012": {
-          "bind": {
-            "input": "range",
-            "max": 2500,
-            "min": 1000,
-            "name": "\ud83c\udfe0 House sq ft",
-            "step": 250
-          },
-          "fields": [
-            "house_size"
-          ],
-          "init": {
-            "house_size": 2000
-          },
-          "type": "single"
-        },
-        "selector013": {
-          "bind": {
-            "input": "range",
-            "max": 400,
-            "min": 100,
-            "name": "\ud83d\udc63 Construction cost / sq ft",
-            "step": 50
-          },
-          "fields": [
-            "per_sq_ft"
-          ],
-          "init": {
-            "per_sq_ft": 150
-          },
-          "type": "single"
-        },
-        "selector014": {
           "bind": {
             "input": "range",
             "max": 0.1,
@@ -1627,7 +637,7 @@
           },
           "type": "single"
         },
-        "selector015": {
+        "selector013": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -1654,23 +664,7 @@
           },
           "type": "single"
         },
-        "selector016": {
-          "bind": {
-            "input": "range",
-            "max": 300000,
-            "min": 110000,
-            "name": "\ud83e\udd11 Purchase price",
-            "step": 10000
-          },
-          "fields": [
-            "property_cost"
-          ],
-          "init": {
-            "property_cost": 150000
-          },
-          "type": "single"
-        },
-        "selector017": {
+        "selector014": {
           "bind": {
             "input": "range",
             "max": 20000,
@@ -1682,27 +676,11 @@
             "lawyer_fees"
           ],
           "init": {
-            "lawyer_fees": 10000
+            "lawyer_fees": 5000
           },
           "type": "single"
         },
-        "selector018": {
-          "bind": {
-            "input": "range",
-            "max": 150000,
-            "min": 0,
-            "name": "\ud83c\udfde Land value owned by CLT",
-            "step": 10000
-          },
-          "fields": [
-            "clt_value"
-          ],
-          "init": {
-            "clt_value": 0
-          },
-          "type": "single"
-        },
-        "selector019": {
+        "selector015": {
           "bind": {
             "input": "range",
             "max": 0.05,
@@ -1718,23 +696,7 @@
           },
           "type": "single"
         },
-        "selector020": {
-          "bind": {
-            "input": "range",
-            "max": 300000,
-            "min": 110000,
-            "name": "\ud83c\uddfa\ud83c\uddf8 Assessed Value (for property taxes)",
-            "step": 5000
-          },
-          "fields": [
-            "assessed_value"
-          ],
-          "init": {
-            "assessed_value": 130000
-          },
-          "type": "single"
-        },
-        "selector021": {
+        "selector016": {
           "bind": {
             "input": "radio",
             "labels": [
@@ -1757,7 +719,7 @@
           },
           "type": "single"
         },
-        "selector022": {
+        "selector017": {
           "bind": {
             "input": "range",
             "max": 800,
@@ -1773,39 +735,7 @@
           },
           "type": "single"
         },
-        "selector023": {
-          "bind": {
-            "input": "range",
-            "max": 5,
-            "min": 0,
-            "name": "\ud83e\udeb5 Cords of wood per year",
-            "step": 1
-          },
-          "fields": [
-            "cords_wood"
-          ],
-          "init": {
-            "cords_wood": 3
-          },
-          "type": "single"
-        },
-        "selector024": {
-          "bind": {
-            "input": "range",
-            "max": 580,
-            "min": 0,
-            "name": "\ud83d\udd25 Price per cord wood",
-            "step": 10
-          },
-          "fields": [
-            "price_per_cord"
-          ],
-          "init": {
-            "price_per_cord": 190
-          },
-          "type": "single"
-        },
-        "selector025": {
+        "selector018": {
           "bind": {
             "input": "range",
             "max": 2270,
@@ -1821,7 +751,7 @@
           },
           "type": "single"
         },
-        "selector026": {
+        "selector019": {
           "bind": {
             "input": "range",
             "max": 3196,
@@ -1837,7 +767,7 @@
           },
           "type": "single"
         },
-        "selector027": {
+        "selector020": {
           "bind": {
             "input": "range",
             "max": 750,
@@ -1857,7 +787,7 @@
       "transform": [
         {
           "as": "upfront_cost",
-          "calculate": "if(((datum.category === 'House') && (datum.scenario === '3. Build a house (remove mobile home)')),(selector012.house_size[0] * selector013.per_sq_ft[0]),if(((datum.category === 'Renovate Sheds') && (datum.scenario === '3. Build a house (remove mobile home)')),(selector010.shed_sq_ft[0] * selector013.per_sq_ft[0]),if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === '3. Build a house (remove mobile home)')),if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0)),if(((datum.category === \"Nevin's Cabin - Materials\") && (datum.scenario === '3. Build a house (remove mobile home)')),5000,if(((datum.category === \"Nevin's Cabin - Labor\") && (datum.scenario === '3. Build a house (remove mobile home)')),12500,if(((datum.category === 'Purchase') && (datum.scenario === '3. Build a house (remove mobile home)')),(selector016.property_cost[0] - selector018.clt_value[0]),if(((datum.category === 'Lawyer Fees') && (datum.scenario === '3. Build a house (remove mobile home)')),selector017.lawyer_fees[0],if(((datum.category === 'Renovate Sheds') && (datum.scenario === '2. Renovate existing sheds')),(selector010.shed_sq_ft[0] * selector013.per_sq_ft[0]),if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === '2. Renovate existing sheds')),if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0)),if(((datum.category === \"Nevin's Cabin - Materials\") && (datum.scenario === '2. Renovate existing sheds')),5000,if(((datum.category === \"Nevin's Cabin - Labor\") && (datum.scenario === '2. Renovate existing sheds')),12500,if(((datum.category === 'Purchase') && (datum.scenario === '2. Renovate existing sheds')),(selector016.property_cost[0] - selector018.clt_value[0]),if(((datum.category === 'Lawyer Fees') && (datum.scenario === '2. Renovate existing sheds')),selector017.lawyer_fees[0],if(((datum.category === 'Storage Shed + Painting Studio') && (datum.scenario === '1. Purchase property')),if((selector004.storage_shed[0] === 'shipping'),selector007.shipping_container[0],if((selector004.storage_shed[0] === 'build'),(selector006.storage_shed_sq_ft[0] * selector013.per_sq_ft[0]),0)),if(((datum.category === \"Nevin's Cabin - Materials\") && (datum.scenario === '1. Purchase property')),5000,if(((datum.category === \"Nevin's Cabin - Labor\") && (datum.scenario === '1. Purchase property')),12500,if(((datum.category === 'Purchase') && (datum.scenario === '1. Purchase property')),(selector016.property_cost[0] - selector018.clt_value[0]),if(((datum.category === 'Lawyer Fees') && (datum.scenario === '1. Purchase property')),selector017.lawyer_fees[0],null))))))))))))))))))"
+          "calculate": "if(((datum.category === 'Property') && (datum.scenario === '23 Pond St, Greenfield, MA')),95000,if(((datum.category === 'Closing costs + lawyer fees') && (datum.scenario === '23 Pond St, Greenfield, MA')),selector014.lawyer_fees[0],null))"
         }
       ]
     }

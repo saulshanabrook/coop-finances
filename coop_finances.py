@@ -75,7 +75,7 @@ class Variable:
 
 
 def generate_plot(
-    fn: typing.Callable[..., list[Scenario]], subtitle, **variables: Variable
+    fn: typing.Callable[dict[str, object], list[Scenario]], subtitle, **variables: Variable
 ):
     # https://altair-viz.github.io/gallery/multiline_tooltip.html
     selections = {
