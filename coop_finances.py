@@ -199,7 +199,7 @@ def generate_plot(
     chart = (
         chart.properties(
             title={
-                "text": "Valley Housing Coop 38 Rush Road Cost Estimator",
+                "text": "Valley Housing Coop Cost Estimator",
                 "anchor": "start",
                 "fontSize": 30,
                 "subtitle": subtitle,
